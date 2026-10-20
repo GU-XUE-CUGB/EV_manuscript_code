@@ -1,0 +1,60 @@
+/* DATA DESCRIPTION:
+Citation:	Robinson, Nicole; Ravizza, Gregory E; Coccioni, Rodolfo; Peucker-Ehrenbrink, Bernhard; Norris, Richard D (2009): (Table S4) Os isotope and platinum group element content in DSDP Site 86-577 [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.785713, 
+	In supplement to: Robinson, N et al. (2009): A high-resolution marine 187Os/188Os record for the late Maastrichtian: Distinguishing the chemical fingerprints of Deccan volcanism and the KP impact event. Earth and Planetary Science Letters, 281(3-4), 159-168, https://doi.org/10.1016/j.epsl.2009.02.019
+Related to:	Ravizza, Gregory E; Peucker-Ehrenbrink, Bernhard (2003): Chemostratigraphic Evidence of Deccan Volcanism from the Marine Osmium Isotope Record. Science, 302(5629), 1392-1395, https://doi.org/10.1126/science.1089209
+Project(s):	Deep Sea Drilling Project (DSDP) (URI: https://www.deepseadrilling.org/)
+Coverage:	LATITUDE: 32.442200 * LONGITUDE: 157.723200
+	DATE/TIME START: 1982-05-23T00:00:00 * DATE/TIME END: 1982-05-23T00:00:00
+	MINIMUM DEPTH, sediment/rock: 109.73 m * MAXIMUM DEPTH, sediment/rock: 123.14 m
+Event(s):	86-577A * LATITUDE: 32.442200 * LONGITUDE: 157.723200 * DATE/TIME: 1982-05-23T00:00:00 * ELEVATION: -2675.0 m * PENETRATION: 123.4 m * RECOVERY: 110.8 m * LOCATION: North Pacific Ocean * CAMPAIGN: Leg86 * BASIS: Glomar Challenger (URI: https://www-odp.tamu.edu:443/glomar.html) * METHOD/DEVICE: Drilling/drill rig (DRILL) * COMMENT: 13 cores; 123.4 m cored; 0 m drilled; 89.8 % recovery
+Comment:	Sediment depth is given in mbsf. For further Os data see also Ravizza and Peucker-Ehrenbrink (2003) dataset doi:10.1594/PANGAEA.785724.
+Parameter(s):	Sample code/label (Sample label) * PI: Robinson, Nicole * METHOD/DEVICE: DSDP/ODP/IODP sample designation (URI: hdl:10013/epic.27914.d001)
+	Reference/source (Reference) * PI: Robinson, Nicole
+	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE
+	Depth, relative [m] (Depth rel) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS) * COMMENT: relative to KT boundary
+	AGE [ka BP] (Age) * GEOCODE
+	Osmium-187/Osmium-188 ratio (187Os/188Os) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Osmium-187/Osmium-188 ratio, error [±] (187Os/188Os e) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS) * COMMENT: 2 sigma
+	Osmium [ng/kg] (Os) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Iridium [ng/kg] (Ir) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Platinum [ng/kg] (Pt) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Osmium/Iridium ratio (Os/Ir) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+	Platinum/Iridium ratio (Pt/Ir) * PI: Robinson, Nicole * METHOD/DEVICE: Inductively coupled plasma - mass spectrometry (ICP-MS)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	318 data points
+*/
+Sample label	Reference	Depth sed [m]	Depth rel [m]	Age [ka BP]	187Os/188Os	187Os/188Os e [±]	Os [ng/kg]	Ir [ng/kg]	Pt [ng/kg]	Os/Ir	Pt/Ir
+86-577B-1-4,85-86	Os data Ravizza dn Peucker-Ehrenbrink, 2003	109.73	0.13	65520	0.240	0.001	54.0	348	726	0.2	2.1
+86-577B-1-4,109-110	Os data Ravizza dn Peucker-Ehrenbrink, 2003	109.97	0.37	65550	0.336	0.001	26.0	46	165	0.6	3.6
+86-577A-12-5,73-76	Os data Ravizza dn Peucker-Ehrenbrink, 2003	111.20	1.60	65660	0.436	0.006	13.0	34	1303	0.4	38.0
+86-577A-12-6,1-3	Os data Ravizza dn Peucker-Ehrenbrink, 2003	111.90	2.30	65730	0.405	0.001	15.0	20	255	0.8	13.0
+86-577B-1-6,2-4	Os data Ravizza dn Peucker-Ehrenbrink, 2003	111.91	2.31	65730	0.383	0.002	15.0	29	249	0.5	9.0
+86-577A-12-6,42-46	this study, analyses at WHOI	112.32	2.72	65770	0.467	0.006	9.0	16	231	0.6	15.0
+86-577A-12-6,90-95	this study, analyses at WHOI	112.81	3.21	65820	0.549	0.004	7.0	7	110	0.9	15.0
+86-577A-12-6,144-147	this study, analyses at WHOI	113.34	3.74	65910	0.541	0.010	7.0	22	173	0.3	8.0
+86-577A-12-7,13-16	this study, analyses at WHOI	113.54	3.94	65960	0.545	0.007	9.0	9	143	1.0	15.0
+86-577A-13-1,0-3	this study, analyses at WHOI	113.90	4.30	66050	0.530	0.004	14.0	15	312	0.9	20.0
+86-577A-13-1,40-43	this study, analyses at WHOI	114.30	4.70	66150	0.579	0.008	8.0	5	640	1.7	132.0
+86-577A-13-1,90-94	this study, analyses at WHOI	114.81	5.21	66280	0.584	0.007	8.0	7	163	1.2	24.0
+86-577A-13-1,140-145	this study, analyses at WHOI	115.31	5.71	66410	0.557	0.006	10.0	5	57	1.9	11.0
+86-577A-13-2,70-75	this study, analyses at WHOI	116.11	6.51	66610	0.569	0.004	10.0	8	92	1.3	12.0
+86-577A-13-2,143-147		116.83	7.23	66790	0.536	0.003	8.0	9	123	1.0	14.0
+86-577A-13-3,69-72	this study, analyses at WHOI	117.59	7.99	66980	0.590	0.005	10.0	6	122	1.8	21.0
+86-577A-13-3,126-130		118.16	8.56	67120	0.576	0.003	8.4	7	126	1.1	17.0
+86-577A-13-3,126-130		118.16	8.56	67120	0.592	0.004	8.1	7	90	1.1	13.0
+86-577A-13-3,126-130		118.16	8.56	67120	0.576	0.003	8.1	6	86	1.3	14.0
+86-577A-13-4,70-74		119.10	9.50	67360	0.574	0.005	8.0	6	113	1.3	18.0
+86-577A-13-4,70-74		119.10	9.50	67360	0.558	0.008	8.9	6	91	1.4	14.0
+86-577A-13-4,70-74		119.10	9.50	67360	0.583	0.005	8.6	5	112	1.7	23.0
+86-577A-13-4,141-145		119.81	10.21	67540	0.514	0.003	9.0	10	120	0.9	11.0
+86-577A-13-4,141-145		119.81	10.21	67540	0.567	0.006	7.8	6	99	1.4	17.0
+86-577A-13-4,141-145		119.81	10.21	67540	0.362	0.001	14.8	13	115	1.1	9.0
+86-577A-13-5,84-86	Os data Ravizza dn Peucker-Ehrenbrink, 2003	120.10	10.50	67610	0.548	0.001	14.0	7	111	2.1	16.0
+86-577A-13-5,131-135		121.21	11.61	67890	0.537	0.003	9.0	10	100	0.9	10.0
+86-577A-13-6,24-27		121.64	12.04	68010	0.542	0.002	9.2	13	195	0.7	15.0
+86-577A-13-6,72-76		122.12	12.52	68130	0.596	0.002	9.7	7	81	1.4	12.0
+86-577A-13-6,72-76		122.12	12.52	68130	0.605	0.002	10.2	7	85	1.4	12.0
+86-577A-13-6,123-127		122.63	13.03	68270	0.584	0.004	9.0	7	653	1.3	92.0
+86-577A-13-6,123-127		122.63	13.03	68270	0.609	0.006	8.6				
+86-577A-13-7,1-5		122.91	13.31	68340	0.598	0.003	9.9	6	109	1.6	18.0
+86-577A-13-CC,16-20		123.14	13.54	68400	0.592	0.002	9.0	10	123	0.9	13.0

@@ -1,0 +1,65 @@
+{
+  "analysis": "Formal Layer 1A documented measurement uncertainty propagation — standard 50-kyr Global EV only",
+  "iterations": 10000,
+  "random_seed": 20260823,
+  "batch_size": 250,
+  "chronology_perturbed": false,
+  "tier2_method_based_uncertainty_included": false,
+  "other_bin_widths_analyzed": false,
+  "retained_operational_records": 70,
+  "retained_measurements": 10881,
+  "layer1_parameter_records": 14,
+  "actually_active_records": 11,
+  "actually_perturbed_measurements": 375,
+  "perturbed_measurement_percent": 3.4463744141163497,
+  "fixed_unresolved_records": [
+    "weathering::ODP525A Os",
+    "weathering::ODP577 Os",
+    "weathering::IODP U1403 Os"
+  ],
+  "observed_nonzero_record_bin_mask_fixed": true,
+  "s1_50kyr_max_absolute_validation_difference": 5.361266985914881e-13,
+  "formal_prefix_vs_pilot_max_EV_difference": 4.440892098500626e-16,
+  "formal_prefix_vs_pilot_max_contrast_difference": 3.3306690738754696e-16,
+  "observed_EV_vs_MC_median_max_absolute_difference": 0.008836936584330324,
+  "max_difference_midpoint_Ma": 66.35000000000001,
+  "50kyr_envelope_width_median": 0.0004399476638733413,
+  "50kyr_envelope_width_maximum": 0.12242218582586611,
+  "50kyr_maximum_width_midpoint_Ma": 66.85000000000001,
+  "perturbation_coverage_minimum": 0.0,
+  "perturbation_coverage_median": 0.0,
+  "perturbation_coverage_maximum": 0.10588235294117647,
+  "protected_dataset_and_document_hashes_unchanged": true,
+  "anomaly_diagnostics": {
+    "nonfinite_value_iterations": 0,
+    "nonfinite_z_iterations": 0,
+    "nonfinite_EV_iterations": 0,
+    "zero_or_invalid_record_SD_events": 0,
+    "missing_EV_trajectory_iterations": 0,
+    "temperature_below_absolute_zero_events": 0,
+    "maximum_absolute_simulated_z_score": 5.045785605080746,
+    "minimum_simulated_global_EV_50kyr": 0.19647118214849807,
+    "maximum_simulated_global_EV_50kyr": 0.7145921447482737,
+    "simulated_measurement_min_by_category": {
+      "d13C": -12.18,
+      "d18O": -13.53,
+      "pCO2": 348.07,
+      "temperature": -0.7998467822844295,
+      "weathering": -1.89
+    },
+    "simulated_measurement_max_by_category": {
+      "d13C": 3.431939138,
+      "d18O": 1.338,
+      "pCO2": 1839.26,
+      "temperature": 32.12793438,
+      "weathering": 1.033580472297977
+    }
+  },
+  "implementation_notes": [
+    "Only the 11 records / 375 observations with reliable one-to-one documented uncertainty mapping were perturbed.",
+    "ODP525A Os, ODP577 Os, and IODP U1403 Os remained fixed.",
+    "Every realization restarted from retained raw measurements and recomputed record-wide sample-SD standardization, z-scores, within-record IQR, and record-weighted Global EV.",
+    "Ages, bin assignments, and the observed eligible/non-zero record-bin mask were fixed.",
+    "The first 1,000 realizations reproduce the validated pilot exactly within 1e-12."
+  ]
+}

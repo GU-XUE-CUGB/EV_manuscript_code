@@ -1,0 +1,114 @@
+/* DATA DESCRIPTION:
+Citation:	Quillévéré, Frédéric; Norris, Richard D; Kroon, Dick; Wilson, Paul A (2008): (Table 2, Appendix) Stable isotope composition of bulk sediment and foraminifera from ODP Hole 171-1049C [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.707182, 
+	In supplement to: Quillévéré, F et al. (2008): Transient ocean warming and shifts in carbon reservoirs during the early Danian. Earth and Planetary Science Letters, 265(3-4), 600-615, https://doi.org/10.1016/j.epsl.2007.10.040
+Project(s):	Ocean Drilling Program (ODP) (URI: https://www-odp.tamu.edu:443/)
+Coverage:	LATITUDE: 30.142270 * LONGITUDE: -76.112110
+	DATE/TIME START: 1997-01-16T00:30:00 * DATE/TIME END: 1997-01-16T00:30:00
+	MINIMUM DEPTH, sediment/rock: 106.14 m * MAXIMUM DEPTH, sediment/rock: 113.58 m
+Event(s):	171-1049C * LATITUDE: 30.142270 * LONGITUDE: -76.112110 * DATE/TIME: 1997-01-16T00:30:00 * ELEVATION: -2670.8 m * PENETRATION: 158.5 m * RECOVERY: 88.86 m * LOCATION: Blake Nose, North Atlantic Ocean * CAMPAIGN: Leg171B * BASIS: Joides Resolution (URI: https://www-odp.tamu.edu:443/resolutn.html) * METHOD/DEVICE: Drilling/drill rig (DRILL) * COMMENT: 13 cores; 111.5 m cored; 47 m drilled; 79.7 % recovery
+Parameter(s):	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE
+	Sample code/label (Sample label) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: DSDP/ODP/IODP sample designation (URI: hdl:10013/epic.27914.d001)
+	Age model [ka] (Age model) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Age model, Gradstein et al (2004) GTS04
+	Age model, optional [ka] (Age model opt) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Age model, Berggren et al (1995) BKSA95
+	δ13C, carbonate [‰ PDB] (δ13C carb) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	δ18O, carbonate [‰ PDB] (δ18O carb) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Stensioeina beccariiformis, δ13C [‰ PDB] (S. beccariiformis δ13C) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Stensioeina beccariiformis, δ18O [‰ PDB] (S. beccariiformis δ18O) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Praemurica taurica, δ13C [‰ PDB] (P. taurica δ13C) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Praemurica taurica, δ18O [‰ PDB] (P. taurica δ18O) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Nuttallides truempyi, δ13C [‰ PDB] (N. truempyi δ13C) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	Nuttallides truempyi, δ18O [‰ PDB] (N. truempyi δ18O) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * METHOD/DEVICE: Mass spectrometer, Finnigan, MAT 252
+	δ13C, standard deviation [±] (δ13C std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: bulk sediment
+	δ13C, standard deviation [±] (δ13C std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: S. beccariiformis
+	δ13C, standard deviation [±] (δ13C std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: P. taurica
+	δ13C, standard deviation [±] (δ13C std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: N. truempyi
+	δ18O, standard deviation [±] (δ18O std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: bulk sediment
+	δ18O, standard deviation [±] (δ18O std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: S. beccariiformis
+	δ18O, standard deviation [±] (δ18O std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: P. taurica
+	δ18O, standard deviation [±] (δ18O std dev) * PI: Quillévéré, Frédéric (https://orcid.org/0000-0002-6248-0447) * COMMENT: N. truempyi
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	725 data points
+*/
+Depth sed [m]	Sample label (DSDP/ODP/IODP sample designation)	Age model [ka] (Age model, Gradstein et al (2...)	Age model opt [ka] (Age model, Berggren et al (19...)	δ13C carb [‰ PDB] (Mass spectrometer, Finnigan, ...)	δ18O carb [‰ PDB] (Mass spectrometer, Finnigan, ...)	S. beccariiformis δ13C [‰ PDB] (Mass spectrometer, Finnigan, ...)	S. beccariiformis δ18O [‰ PDB] (Mass spectrometer, Finnigan, ...)	P. taurica δ13C [‰ PDB] (Mass spectrometer, Finnigan, ...)	P. taurica δ18O [‰ PDB] (Mass spectrometer, Finnigan, ...)	N. truempyi δ13C [‰ PDB] (Mass spectrometer, Finnigan, ...)	N. truempyi δ18O [‰ PDB] (Mass spectrometer, Finnigan, ...)	δ13C std dev [±] (bulk sediment)	δ13C std dev [±] (S. beccariiformis)	δ13C std dev [±] (P. taurica)	δ13C std dev [±] (N. truempyi)	δ18O std dev [±] (bulk sediment)	δ18O std dev [±] (S. beccariiformis)	δ18O std dev [±] (P. taurica)	δ18O std dev [±] (N. truempyi)
+106.14	171-1094C-8X-1,3-5	65093	64747	1.52	0.01	1.39	-0.08	1.28	-0.72			0.08				0.04			
+106.33	171-1094C-8X-1,22-24	65102	64752	1.75	0.44	1.18	0.09	1.35	-0.66			0.07	0.14			0.04	0.13		
+106.41	171-1094C-8X-1,30-32	65106	64754			1.34	-0.13	1.28	-0.75										
+106.53	171-1094C-8X-1,42-44	65112	64757	1.45	-0.03	1.23	-0.18	1.15	-1.10			0.01				0.01			
+106.61	171-1094C-8X-1,50-52	65116	64759					1.11	-0.90	1.28	-0.27								
+106.73	171-1094C-8X-1,62-64	65122	65762	1.54	0.11			1.04	-1.24	1.27	-0.27	0.02				0.06			
+106.81	171-1094C-8X-1,70-72	65126	64764					1.02	-1.18	1.01	-0.07								
+106.93	171-1094C-8X-1,82-84	65132	64767	0.80	-0.76	0.86	0.22	0.97	-1.50	0.92	0.09	0.02				0.06			
+107.01	171-1094C-8X-1,90-92	65136	64769			1.47	-0.03	1.25	-1.09	1.15	-0.09		0.07				0.04		
+107.13	171-1094C-8X-1,102-104	65142	64772	1.25	-0.12			1.25	-0.95	1.41	-0.18	0.07				0.06			
+107.21	171-1094C-8X-1,110-112	65146	64774					1.08	-1.08	1.38	-0.12								
+107.33	171-1094C-8X-1,122-124	65152	64777	1.65	0.27			1.27	-1.04	1.47	-0.13	0.01				0.01			
+107.41	171-1094C-8X-1,130-132	65156	64780					1.13	-0.99	1.50	-0.05								
+107.53	171-1094C-8X-1,142-144	65162	64783	1.91	0.50			1.38	-0.63	1.43	-0.04	0.06				0.01			
+107.61	171-1094C-8X-2,0-2	65166	64785					1.52	-0.55	1.59	0.01				0.01				0.02
+107.73	171-1094C-8X-2,12-14	65172	64788	1.96	0.54			1.38	-0.67	1.66	-0.06	0.01				0.05			
+107.83	171-1094C-8X-2,22-24	65177	64790	1.54	0.11							0.04				0.11			
+107.93	171-1094C-8X-2,32-34	65182	64793	1.76	0.34	1.39	-0.11	1.15	-1.13	1.25	-0.22	0.06				0.06			
+108.01	171-1094C-8X-2,40-42	65186	64795			1.32	-0.05	1.08	-0.99										
+108.13	171-1094C-8X-2,52-54	65192	64798	1.39	-0.09	1.34	0.09	1.16	-1.15			0.08				0.12			
+108.21	171-1094C-8X-2,60-62	65196	64800			1.24	-0.01												
+108.33	171-1094C-8X-2,72-74	65202	64803	1.50	-0.08	1.04	0.19	1.06	-1.15	1.31	-0.09	0.01				0.04			
+108.41	171-1094C-8X-2,80-82	65206	64805			0.82	0.08	0.88	-1.21										
+108.53	171-1094C-8X-2,92-94	65212	64808	0.65	-0.89	0.87	-0.10	0.86	-1.48			0.16				0.08			
+108.61	171-1094C-8X-2,100-102	65216	64810					0.70	-1.62	1.08	-0.27								
+108.73	171-1094C-8X-2,112-114	65222	64813	1.05	-0.42	1.32	-0.09	1.06	-1.22			0.07				0.04			
+108.82	171-1094C-8X-2,120-122	65227	64815	1.41	-0.07			1.07	-1.06										
+108.93	171-1094C-8X-2,132-134	65232	64818	1.21	-0.22	1.75	0.31	1.35	-0.91					0.02				0.03	
+109.01	171-1094C-8X-2,140-142	65236	64820			1.72	0.04	1.32	-0.82										
+109.14	171-1094C-8X-3,2-4	65243	64824	1.79	0.47			1.32	-1.06	1.74	0.58	0.08				0.16			
+109.22	171-1094C-8X-3,10-12	65247	64826	1.66	0.00			1.39	-0.97					0.02				0.08	
+109.34	171-1094C-8X-3,22-24	65253	64829	1.73	0.36			1.35	-0.92	1.71	0.44	0.07				0.04			
+109.42	171-1094C-8X-3,30-32	65257	64831					1.42	-0.80	1.87	0.41								
+109.53	171-1094C-8X-3,42-44	65262	64834	1.98	0.57			1.51	-0.73	1.62	0.10	0.01				0.02			
+109.61	171-1094C-8X-3,50-52	65266	64836					1.53	-0.79	1.74	0.07								
+109.73	171-1094C-8X-3,62-64	65272	64839	1.88	0.40			1.46	-0.78	1.73	0.09	0.05				0.02			
+109.81	171-1094C-8X-3,70-72	65276	64841					1.34	-0.93	1.51	-0.01			0.03				0.04	
+109.91	171-1094C-8X-3,82-84	65282	64845	1.58	0.25			1.31	-1.23	1.63	-0.02	0.05				0.02			
+110.01	171-1094C-8X-3,90-92	65286	64848					1.33	-1.01	1.55	-0.07								
+110.13	171-1094C-8X-3,102-104	65292	64851	1.87	0.36	1.61	0.26	1.38	-0.85			0.06		0.02		0.01		0.09	
+110.21	171-1094C-8X-3,110-112	65296	64853					1.47	-0.94	1.70	0.03								
+110.33	171-1094C-8X-3,122-124	65302	64856	1.92	0.44	1.30	0.27	1.38	-0.64	1.21	-0.03	0.04				0.08			
+110.41	171-1094C-8X-3,130-132	65307	64858					1.42	-0.67	1.54	-0.01			0.02				0.04	
+110.53	171-1094C-8X-3,142-144	65311	64861	1.82	0.33			1.32	-1.05	1.48	-0.14	0.04				0.02			
+110.73	171-1094C-8X-4,12-14	65323	64864	1.64	0.19	1.43	-0.10	1.16	-0.87	1.46	0.01	0.18		0.09		0.06		0.23	
+110.93	171-1094C-8X-4,32-34	65333	64869	1.86	0.34			1.46	-1.07			0.02				0.02			
+111.01	171-1094C-8X-4,40-42	65337	64871	1.66	0.02			1.48	-0.61										
+111.13	171-1094C-8X-4,52-54	65344	64874	1.98	0.49			1.57	-0.75			0.01				0.13			
+111.21	171-1094C-8X-4,60-62	65348	64876					1.61	-0.51										
+111.33	171-1094C-8X-4,72-74	65355	64879	1.85	0.34	1.60	-0.06	1.35	-0.76	1.61	-0.04	0.01				0.06			
+111.41	171-1094C-8X-4,80-82	65361	64881	1.49	-0.68														
+111.53	171-1094C-8X-4,92-94	65367	64884	1.89	0.47			1.43	-0.82			0.04				0.14			
+111.61	171-1094C-8X-4,100-102	65372	64886			1.62	0.07	0.07											
+111.73	171-1094C-8X-4,112-114	65378	64889	1.90	0.45			1.51	-0.61			0.02				0.02			
+111.81	171-1094C-8X-4,120-122	65383	64891	1.60	-0.69														
+111.93	171-1094C-8X-4,132-134	65389	64894	2.10	0.52	1.55	-0.14	1.41	-0.82	1.62	-0.01	0.01				0.03			
+112.01	171-1094C-8X-4,140-142	65893	64896					1.49	-0.71										
+112.11	171-1094C-8X-5,0-2	65398	64899	1.87	0.36	1.76	0.02			1.41	-0.10	0.01				0.08			
+112.20	171-1094C-8X-5,10-12	65403	64901					1.14	-1.13	1.51	0.00								
+112.27	171-1094C-8X-5,17-19	65406	64903	1.94								0.32							
+112.37	171-1094C-8X-5,27-29	65411	64906	1.74	0.10							0.07				0.08			
+112.46	171-1094C-8X-5,36-38	65416	64908	1.78	0.16							0.05				0.09			
+112.50	171-1094C-8X-5,40-42	65418	64909	1.62	0.14	2.12	0.12	1.36	-0.89	2.12	0.12	0.01				0.01			
+112.56	171-1094C-8X-5,46-48	65421	64910	1.32	-0.95														
+112.60	171-1094C-8X-5,50-52	65423	64911	1.91	0.61	1.76	-0.02	1.30	-0.87	2.08	0.22								
+112.62	171-1094C-8X-5,54-56	65424	64912																
+112.66	171-1094C-8X-5,57-58	65426	64913	1.77	0.21	2.17	0.14			1.61	0.03	0.08				0.10			
+112.69	171-1094C-8X-5,60-61	65427	64914	1.74	0.28			1.23	-1.02										
+112.74	171-1094C-8X-5,64-66	65430	64915	1.61	-0.02			1.30	-1.14	1.72	-0.07	0.09		0.07		0.01		0.06	
+112.76	171-1094C-8X-5,65-67	65430	64916	1.09	-1.02														
+112.80	171-1094C-8X-5,70-71	65432	64917	2.08	0.91					1.94	-0.10	0.04				0.09			
+112.88	171-1094C-8X-5,77-78	65494	64997	1.92	1.09	1.53	-0.09			1.99	-0.15	0.01				0.04			
+112.95	171-1094C-8X-5,84.5-85	65498	64998	1.09	-0.48					2.05	-0.21								
+112.97	171-1094C-8X-5,85-87	65499	64999	1.72	-1.76					2.02	0.25				0.10				0.16
+113.00	171-1094C-8X-5,90-91	65500	65000																
+113.03	171-1094C-8X-5,93-94	65502	65002	1.90	-2.26					1.09	-0.41								
+113.10	171-1094C-8X-5,100-101	65505	65008	2.18	-0.64					1.53	-0.21								
+113.14	171-1094C-8X-5,104-105	65507	65012	2.18	-0.67					1.50	-0.02								
+113.20	171-1094C-8X-5,110-111	65510	65017	2.08	-0.74					1.20	-0.31								
+113.36	171-1094C-8X-5,121-122	65518	65029	2.20	-0.50							0.01				0.05			
+113.50	171-1094C-8X-5,140-142	65525	65040			1.71	0.34			1.62	0.08								
+113.58	171-1094C-8X-5,148-150	65529	65047			1.84	-0.49			1.51	0.31								

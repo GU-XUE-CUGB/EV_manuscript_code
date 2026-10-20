@@ -1,0 +1,49 @@
+/* DATA DESCRIPTION:
+Citation:	Ravizza, Gregory E; Peucker-Ehrenbrink, Bernhard (2003): (Table S1) Marine Os isotope record across the Cretaceous-Tertiary boundary [dataset]. PANGAEA, https://doi.org/10.1594/PANGAEA.785724, 
+	Supplement to: Ravizza, GE; Peucker-Ehrenbrink, B (2003): Chemostratigraphic Evidence of Deccan Volcanism from the Marine Osmium Isotope Record. Science, 302(5629), 1392-1395, https://doi.org/10.1126/science.1089209
+Abstract:	Continental flood basalt (CFB) volcanism is hypothesized to have played a causative role in global climate change and mass extinctions. Uncertainties associated with radiometric dating preclude a clear chronological assessment of the environmental consequences of CFB volcanism. Our results document a 25% decline in the marine 187Os/188Os record that predates the Cretaceous-Tertiary boundary (KTB) and coincides with late Maastrichtian warming. We argue that this decline provides a chemostratigraphic marker of Deccan volcanism and thus constitutes compelling evidence that the main environmental consequence of Deccan volcanism was a transient global warming event of 3° to 5°C that is fully resolved from the KTB mass extinction.
+Project(s):	Deep Sea Drilling Project (DSDP) (URI: https://www.deepseadrilling.org/)
+Coverage:	MEDIAN LATITUDE: -9.387544 * MEDIAN LONGITUDE: 71.003444 * SOUTH-BOUND LATITUDE: -31.533700 * WEST-BOUND LONGITUDE: 2.985300 * NORTH-BOUND LATITUDE: 32.441767 * EAST-BOUND LONGITUDE: 157.723233
+	DATE/TIME START: 1972-08-03T00:00:00 * DATE/TIME END: 1982-05-23T00:00:00
+	MINIMUM DEPTH, sediment/rock: 369.00 m * MAXIMUM DEPTH, sediment/rock: 479.90 m
+Event(s):	25-245 * LATITUDE: -31.533700 * LONGITUDE: 52.301800 * DATE/TIME: 1972-08-03T00:00:00 * ELEVATION: -4857.0 m * PENETRATION: 396.5 m * RECOVERY: 82 m * LOCATION: Indian Ocean//BASIN * CAMPAIGN: Leg25 * BASIS: Glomar Challenger (URI: https://www-odp.tamu.edu:443/glomar.html) * METHOD/DEVICE: Drilling/drill rig (DRILL) * COMMENT: 17 cores; 144.5 m cored; 6 m drilled; 56.7 % recovery
+	74-525A * LATITUDE: -29.070700 * LONGITUDE: 2.985300 * DATE/TIME: 1980-06-10T00:00:00 * ELEVATION: -2467.0 m * PENETRATION: 678.1 m * RECOVERY: 406.6 m * LOCATION: South Atlantic/CREST * CAMPAIGN: Leg74 * BASIS: Glomar Challenger (URI: https://www-odp.tamu.edu:443/glomar.html) * METHOD/DEVICE: Drilling/drill rig (DRILL) * COMMENT: 62 cores; 549.7 m cored; 6 m drilled; 74 % recovery
+	86-577_Site * LATITUDE: 32.441767 * LONGITUDE: 157.723233 * DATE/TIME: 1982-05-23T00:00:00 * ELEVATION: -2675.0 m * PENETRATION: 3.561 m * RECOVERY: 2.316 m * LOCATION: North Pacific Ocean * CAMPAIGN: Leg86 * BASIS: Glomar Challenger (URI: https://www-odp.tamu.edu:443/glomar.html) * METHOD/DEVICE: Composite Core (COMPCORE) * COMMENT: 27 cores; 251.7 m cored; 0 m drilled; 92% recovery
+Comment:	Sediment depth is given in mbsf. For Atlantic and Pacific sites age models are based on linear interpolation between magnetic reversal boundaries and the KTB. For the Indian Ocean the age model is based solely on biostratigraphy and is less well constrained.
+Parameter(s):	Event label (Event)
+	Sample code/label (Sample label) * PI: Ravizza, Gregory E * METHOD/DEVICE: DSDP/ODP/IODP sample designation (URI: hdl:10013/epic.27914.d001)
+	DEPTH, sediment/rock [m] (Depth sed) * GEOCODE
+	Depth, relative [m] (Depth rel) * PI: Ravizza, Gregory E * COMMENT: relative to K/T boundary
+	AGE [ka BP] (Age) * GEOCODE
+	Osmium-187/Osmium-188 ratio (187Os/188Os) * PI: Ravizza, Gregory E * METHOD/DEVICE: Negative-thermal ionization mass spectrometry (N-TIMS)
+	Osmium-187/Osmium-188 ratio, error [±] (187Os/188Os e) * PI: Ravizza, Gregory E * METHOD/DEVICE: Negative-thermal ionization mass spectrometry (N-TIMS) * COMMENT: 2 sigma
+	Osmium [ng/kg] (Os) * PI: Ravizza, Gregory E * METHOD/DEVICE: Negative-thermal ionization mass spectrometry (N-TIMS)
+License:	Creative Commons Attribution 3.0 Unported (CC-BY-3.0) (URI: https://creativecommons.org/licenses/by/3.0/)
+Size:	109 data points
+*/
+Event	Sample label	Depth sed [m]	Depth rel [m]	Age [ka BP]	187Os/188Os	187Os/188Os e [±]	Os [ng/kg]
+25-245	25-245-15-1,105-107	369.00		63000	0.4056	0.0024	88
+25-245	25-245-15-2,110-113	370.60		63100	0.3550	0.0040	51
+25-245	25-245-16-1,51-54	381.40		63700	0.4180	0.0030	60
+86-577_Site	86-577B-1-1,93-95		-4.28	64320	0.3927	0.0017	18
+86-577_Site	86-577B-1-3,62-64		-1.56	65080	0.3861	0.0008	43
+86-577_Site	86-577B-1-4,53-54		-0.19	65460	0.2555	0.0004	117
+86-577_Site	86-577B-1-4,69-70		-0.03	65510	0.1570	0.0005	521
+86-577_Site	86-577B-1-4,85-86		0.13	65520	0.2402	0.0013	54
+86-577_Site	86-577B-1-4,109-110		0.37	65550	0.3356	0.0010	26
+86-577_Site	86-577A-12-6,1-3		2.30	65730	0.4049	0.0008	15
+86-577_Site	86-577B-1-6,2-4		2.31	65730	0.3833	0.0015	15
+86-577_Site	86-577A-13-5,84-86		10.50	67490	0.5476	0.0013	14
+74-525A	74-525A-40R-1,114-119	451.24		65000	0.4285	0.0027	63
+74-525A	74-525A-40R-2,97-100	452.57		65570	0.3880	0.0080	46
+74-525A	74-525A-40R-3,97-100	452.57		65570	0.4150	0.0100	42
+74-525A	74-525A-40R-3,120-123	454.30		65680	0.4002	0.0027	39
+74-525A	74-525A-40R-4,62-64	455.12		65690	0.4300	0.0050	25
+74-525A	74-525A-40R-4,62-64	455.12		65690	0.4170	0.0060	27
+74-525A	74-525A-40R-5,87-90	456.87		65860	0.4580	0.0060	27
+74-525A	74-525A-40R-6,5-9	457.55		65920	0.4829	0.0021	74
+74-525A	74-525A-41R-1,21-24	459.81		66140	0.5462	0.0023	57
+74-525A	74-525A-41R-3,131-134	463.91		66530	0.5570	0.0060	49
+74-525A	74-525A-41R-3,131-134	463.91		66530	0.5520	0.0060	52
+74-525A	74-525A-41R-7,29-32	468.58		66980	0.5620	0.0050	45
+74-525A	74-525A-43R-101,130-133	479.90		68000	0.6360	0.0140	38
