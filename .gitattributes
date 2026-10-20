@@ -1,0 +1,5 @@
+# Preserve file bytes used by input and reference checksums.
+* -text
+*.xlsx binary
+*.npz binary
+*.png binary
