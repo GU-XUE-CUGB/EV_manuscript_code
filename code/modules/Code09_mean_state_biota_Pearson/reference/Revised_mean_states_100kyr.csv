@@ -1,0 +1,126 @@
+"Mean_environmental_metric","Resolution_kyr","Midpoint_Ma","Mean_state","Measurement_n","Record_n"
+"Global mean environmental state",100,64.8,0.244940702972105,205,19
+"Global mean environmental state",100,64.9,-0.442365782195014,157,17
+"Global mean environmental state",100,65,-0.148960631072611,250,21
+"Global mean environmental state",100,65.1,-0.373203878174197,397,25
+"Global mean environmental state",100,65.2,-0.548403580996745,258,25
+"Global mean environmental state",100,65.3,-0.707128671904584,226,33
+"Global mean environmental state",100,65.4,-0.698585320411394,280,28
+"Global mean environmental state",100,65.5,-0.258536302824861,461,36
+"Global mean environmental state",100,65.6,-0.36595784782269,319,32
+"Global mean environmental state",100,65.7,-0.579717366181338,379,40
+"Global mean environmental state",100,65.8,-0.560564531587189,412,40
+"Global mean environmental state",100,65.9,-0.0615929546970228,456,40
+"Global mean environmental state",100,66,0.587134304641941,883,55
+"Global mean environmental state",100,66.1,0.252726770554349,731,59
+"Global mean environmental state",100,66.2,-0.14423928396517,504,54
+"Global mean environmental state",100,66.3,-0.0333645037790568,427,48
+"Global mean environmental state",100,66.4,-0.113298679123044,369,40
+"Global mean environmental state",100,66.5,-0.080660361110834,367,35
+"Global mean environmental state",100,66.6,0.123800705607678,358,30
+"Global mean environmental state",100,66.7,0.454792883357,310,16
+"Global mean environmental state",100,66.8,0.637800802482881,299,20
+"Global mean environmental state",100,66.9,0.484734959243304,277,26
+"Global mean environmental state",100,67,0.66817204550415,243,19
+"Global mean environmental state",100,67.1,0.699081745506676,109,15
+"Global mean environmental state",100,67.2,0.628801683473597,91,16
+"Temperature mean state",100,64.8,0.277153860876586,12,2
+"Temperature mean state",100,64.9,0.486683191095663,12,4
+"Temperature mean state",100,65,0.483477608439682,15,2
+"Temperature mean state",100,65.1,0.791747509427941,17,1
+"Temperature mean state",100,65.2,0.634917971127059,19,4
+"Temperature mean state",100,65.3,0.0579347204627696,17,6
+"Temperature mean state",100,65.4,0.00931643574499072,10,3
+"Temperature mean state",100,65.5,-0.18589109474525,25,7
+"Temperature mean state",100,65.6,-0.554799145435611,12,4
+"Temperature mean state",100,65.7,-0.112835531401057,72,8
+"Temperature mean state",100,65.8,-0.111682950106337,20,9
+"Temperature mean state",100,65.9,-0.0264038478709907,33,8
+"Temperature mean state",100,66,-0.0328136035961096,111,20
+"Temperature mean state",100,66.1,-0.00274693237257896,190,25
+"Temperature mean state",100,66.2,0.609322986982191,138,24
+"Temperature mean state",100,66.3,0.497485522097285,93,22
+"Temperature mean state",100,66.4,-0.570899762495824,96,17
+"Temperature mean state",100,66.5,-0.853662868230518,55,15
+"Temperature mean state",100,66.6,-0.79379724080122,21,9
+"Temperature mean state",100,66.7,-0.20833944108662,11,5
+"Temperature mean state",100,66.8,-0.666738569342966,7,4
+"Temperature mean state",100,66.9,-0.577315384671036,9,7
+"Temperature mean state",100,67,-0.00557556202703056,4,4
+"Temperature mean state",100,67.1,-0.330707220738812,4,3
+"Temperature mean state",100,67.2,-1.16213339341791,5,4
+"d13C mean state",100,64.8,0.498715877062949,92,7
+"d13C mean state",100,64.9,0.0417131635881654,71,6
+"d13C mean state",100,65,0.0636307711360832,114,8
+"d13C mean state",100,65.1,-0.2112695651258,179,9
+"d13C mean state",100,65.2,-0.700971215902876,113,8
+"d13C mean state",100,65.3,-0.986568596692941,98,10
+"d13C mean state",100,65.4,-1.10911246827333,130,10
+"d13C mean state",100,65.5,-0.961707776589811,209,11
+"d13C mean state",100,65.6,-1.0038339956945,145,10
+"d13C mean state",100,65.7,-1.25802891835149,142,11
+"d13C mean state",100,65.8,-0.964319512587412,178,10
+"d13C mean state",100,65.9,-0.186604960140212,191,10
+"d13C mean state",100,66,0.724560681994749,325,10
+"d13C mean state",100,66.1,1.12643842240935,213,9
+"d13C mean state",100,66.2,0.285577698521257,136,7
+"d13C mean state",100,66.3,0.432887092446949,138,6
+"d13C mean state",100,66.4,0.0469770913328076,115,6
+"d13C mean state",100,66.5,-0.141404455991371,135,5
+"d13C mean state",100,66.6,0.0254258857523382,151,5
+"d13C mean state",100,66.7,0.222965998763929,141,4
+"d13C mean state",100,66.8,0.483132492472986,133,5
+"d13C mean state",100,66.9,0.346210690854228,120,5
+"d13C mean state",100,67,0.59054059711286,107,5
+"d13C mean state",100,67.1,0.917173145398534,40,4
+"d13C mean state",100,67.2,0.998107727259482,32,4
+"d18O mean state",100,64.8,0.0186980388718062,99,8
+"d18O mean state",100,64.9,-1.0574764961152,74,7
+"d18O mean state",100,65,-0.431583873933838,120,10
+"d18O mean state",100,65.1,-0.667923949591938,187,11
+"d18O mean state",100,65.2,-0.629321143238687,120,10
+"d18O mean state",100,65.3,-0.587516260751769,104,12
+"d18O mean state",100,65.4,-0.373630888081378,134,11
+"d18O mean state",100,65.5,0.393767897873285,215,13
+"d18O mean state",100,65.6,0.245609865053887,151,12
+"d18O mean state",100,65.7,-0.209906014560758,154,13
+"d18O mean state",100,65.8,-0.309333645268949,189,12
+"d18O mean state",100,65.9,0.0971493235335486,211,13
+"d18O mean state",100,66,0.867870896324489,390,14
+"d18O mean state",100,66.1,-0.174086835913842,248,13
+"d18O mean state",100,66.2,-1.22445332112045,165,11
+"d18O mean state",100,66.3,-0.815013941323702,166,10
+"d18O mean state",100,66.4,-0.0655651908889802,139,9
+"d18O mean state",100,66.5,0.11391503300456,161,8
+"d18O mean state",100,66.6,0.245629987220463,172,8
+"d18O mean state",100,66.7,0.702265749793718,157,6
+"d18O mean state",100,66.8,0.845344274370618,151,7
+"d18O mean state",100,66.9,0.668607026882356,136,7
+"d18O mean state",100,67,0.737230380491253,126,7
+"d18O mean state",100,67.1,0.665742400643333,57,6
+"d18O mean state",100,67.2,0.582320464379283,50,6
+"Weathering mean state",100,64.8,-0.912569840387738,1,1
+"Weathering mean state",100,64.9,NA,0,0
+"Weathering mean state",100,65,0.0438350677991449,1,1
+"Weathering mean state",100,65.1,0.0783845311270866,14,4
+"Weathering mean state",100,65.2,0.196119872848844,6,3
+"Weathering mean state",100,65.3,-0.202931031285801,5,4
+"Weathering mean state",100,65.4,-0.240982365700374,6,4
+"Weathering mean state",100,65.5,0.17218449753353,9,4
+"Weathering mean state",100,65.6,-0.219903854596676,10,5
+"Weathering mean state",100,65.7,-0.149316643404013,9,7
+"Weathering mean state",100,65.8,-0.0752016667823521,19,8
+"Weathering mean state",100,65.9,-0.666656109875744,18,8
+"Weathering mean state",100,66,-1.17437764621234,47,10
+"Weathering mean state",100,66.1,-0.12289565964923,76,11
+"Weathering mean state",100,66.2,0.0771001076885736,63,11
+"Weathering mean state",100,66.3,0.529984752445976,27,9
+"Weathering mean state",100,66.4,0.857727108760184,17,7
+"Weathering mean state",100,66.5,1.28172348951111,15,6
+"Weathering mean state",100,66.6,1.42592897090446,11,7
+"Weathering mean state",100,66.7,1.58359914929492,1,1
+"Weathering mean state",100,66.8,1.23113676762828,5,3
+"Weathering mean state",100,66.9,0.726407450909369,11,6
+"Weathering mean state",100,67,1.05153957877377,6,3
+"Weathering mean state",100,67.1,0.361062061321456,8,2
+"Weathering mean state",100,67.2,0.842624367591553,3,1

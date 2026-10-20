@@ -1,0 +1,50 @@
+midpoint_Ma,low_sites,mid_high_sites,k,eligible,low_site_names,mid_high_site_names,median,p2_5,p97_5
+67.2,1,2,0,False,ODP 1209,"IODP U1403; Stevns-1 Core, Denmark",,,
+67.15,1,2,0,False,ODP 1209,"IODP U1403; Stevns-1 Core, Denmark",,,
+67.1,1,2,0,False,ODP 1209,"IODP U1403; Stevns-1 Core, Denmark",,,
+67.05,1,4,0,False,ODP 1209,"Garfield County, Montana; IODP U1403; ODP 1262; Stevns-1 Core, Denmark",,,
+67.0,1,3,0,False,ODP 1209,"IODP U1403; ODP 1262; Stevns-1 Core, Denmark",,,
+66.95,1,3,0,False,ODP 1209,"IODP U1403; ODP 1262; Stevns-1 Core, Denmark",,,
+66.9,1,5,0,False,ODP 1209,"IODP U1403; ODP 1262; Seymour Island, Antarctica; Songliao Basin, eastern China; Stevns-1 Core, Denmark",,,
+66.85,1,5,0,False,ODP 1209,"IODP U1403; Meirs Farm, New Jersey; ODP 1262; Seymour Island, Antarctica; Stevns-1 Core, Denmark",,,
+66.8,1,4,0,False,ODP 1209,"Bottaccione Section, Italy; IODP U1403; ODP 1262; Stevns-1 Core, Denmark",,,
+66.75,0,5,0,False,,"IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Stevns-1 Core, Denmark",,,
+66.7,1,3,0,False,ODP 1209,"IODP U1403; ODP 1262; Stevns-1 Core, Denmark",,,
+66.65,1,4,0,False,ODP 1209,"IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark",,,
+66.6,2,6,2,True,ODP 1209; ODP 1210,"IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Songliao Basin, eastern China; Stevns-1 Core, Denmark",0.445184240942,0.005831352233500009,1.150726100504
+66.55,1,6,0,False,ODP 1209,"Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark; Williston Basin, North Dakota",,,
+66.5,1,6,0,False,ODP 1209,"Bass River, New Jersey; DSDP 525; IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark",,,
+66.45,1,7,0,False,ODP 1209,"Bass River, New Jersey; DSDP 525; Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark",,,
+66.4,2,11,2,True,DSDP 384; ODP 1209,"Bass River, New Jersey; DSDP 525; Garfield County, Montana; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Songliao Basin, eastern China; Stevns-1 Core, Denmark; West Texas",0.031208919892612486,-0.24235865097715417,0.5164341853646126
+66.35,1,10,0,False,ODP 1209,"Bass River, New Jersey; DSDP 525; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark; West Texas",,,
+66.3,2,9,2,True,DSDP 465; ODP 1209,"Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Songliao Basin, eastern China; Stevns-1 Core, Denmark; West Texas",-0.06216998760423814,-0.40496976230903814,0.31849003793616176
+66.25,3,11,3,True,"Nanxiong Basin, China; ODP 1209; ODP 1210","Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Seymour Island, Antarctica; Songliao Basin, eastern China; Stevns-1 Core, Denmark; West Texas",0.07028632968258891,-0.29844970093459444,0.7904808384567112
+66.2,3,12,3,True,DSDP 577; ODP 1209; ODP 1210,"Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Seymour Island, Antarctica; Songliao Basin, eastern China; Stevns-1 Core, Denmark",-0.11348012958797338,-0.4234315996481845,0.21737553034869317
+66.15,4,12,4,True,DSDP 465; DSDP 577; ODP 1049; ODP 1209,"Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark; West Texas",-0.06467871124400404,-0.42808668303104574,0.3705645467718959
+66.1,1,14,0,False,ODP 1209,"Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; DSDP 528; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 1267; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark; Williston Basin, North Dakota",,,
+66.05,6,14,6,True,"DSDP 465; DSDP 577; El Kef, Tunisia; ODP 1049; ODP 1209; ODP 1210","Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; Brazos River, Texas; DSDP 525; DSDP 528; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 1267; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark",0.15906997015572766,-0.13258207176769304,0.51915204733095
+66.0,6,7,6,True,"DSDP 465; DSDP 577; El Kef, Tunisia; Nanxiong Basin, China; ODP 1049; ODP 1209","Brazos River, Texas; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 1267; Songliao Basin, eastern China; Stevns-1 Core, Denmark",0.1762826052656024,0.07636363371993576,0.27334271768896906
+65.95,5,7,5,True,"DSDP 465; El Kef, Tunisia; ODP 1049; ODP 1209; ODP 1210","Brazos River, Texas; IODP U1403; ODP 1262; ODP 1267; ODP 690; Seymour Island, Antarctica; Songliao Basin, eastern China",-0.009718145302686665,-0.13078216049932,0.07987789293301334
+65.9,4,6,4,True,"El Kef, Tunisia; ODP 1049; ODP 1209; ODP 1210","Brazos River, Texas; IODP U1403; ODP 1262; ODP 1267; ODP 690; Songliao Basin, eastern China",-0.16049278126270872,-0.24570487950580205,-0.10207019452259203
+65.85,3,5,3,True,"El Kef, Tunisia; ODP 1049; ODP 1209","Brazos River, Texas; IODP U1403; ODP 1262; ODP 1267; Seymour Island, Antarctica",-0.24154791444734763,-0.35069079070501424,-0.12892222415884758
+65.8,2,4,2,True,"El Kef, Tunisia; ODP 1209","IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",0.05415213789474754,-0.19110070047900246,0.32533210173745425
+65.75,1,5,0,False,ODP 1209,"Bajada del Jagüel, Argentina; IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",,,
+65.7,2,4,2,True,ODP 1049; ODP 1209,"IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",-0.1953769030956778,-0.3323737475389278,-0.05734269612209775
+65.65,2,3,2,True,"Nanxiong Basin, China; ODP 1209",IODP U1403; ODP 1262; ODP 1267,0.08969743238334832,-0.09322991592952667,0.12371291071029167
+65.6,1,3,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267,,,
+65.55,1,4,0,False,ODP 1209,"IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",,,
+65.5,2,5,2,True,DSDP 384; ODP 1209,"IODP U1403; ODP 1262; ODP 1267; ODP 690; Songliao Basin, eastern China",-0.0572515851940911,-0.1549789989345286,0.008416775710283875
+65.45,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+65.4,2,4,2,True,"Nanxiong Basin, China; ODP 1209",IODP U1403; ODP 1262; ODP 1267; ODP 690,0.18978787063927555,0.14602297148827553,0.5047379054205255
+65.35,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+65.3,1,3,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267,,,
+65.25,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+65.2,2,4,2,True,DSDP 384; ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,0.08625420999514166,-0.016253053432233322,0.133700015917725
+65.15,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+65.1,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+65.05,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+65.0,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+64.95,1,4,0,False,ODP 1209,IODP U1403; ODP 1262; ODP 1267; ODP 690,,,
+64.9,3,4,3,True,"DSDP 384; Nanxiong Basin, China; ODP 1209",IODP U1403; ODP 1262; ODP 1267; ODP 690,0.01747893202413331,-0.13358614335648333,0.060665303552216665
+64.85,2,3,2,True,"Nanxiong Basin, China; ODP 1209",IODP U1403; ODP 1262; ODP 1267,-0.09530674051764998,-0.182843903537475,-0.062991233229725
+64.8,2,4,2,True,"Nanxiong Basin, China; ODP 1209",IODP U1403; ODP 1262; ODP 1267; ODP 690,-0.14235888677422498,-0.20194743499472495,-0.10670412967547499

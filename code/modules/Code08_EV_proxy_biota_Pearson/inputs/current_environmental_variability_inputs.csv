@@ -1,0 +1,363 @@
+predictor,EV_bin_width_kyr,age_Ma,variability,workbook
+Global EV,50,64.8,0.3654523989415,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,64.85,0.36157934659813085,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,64.9,0.36147020870801533,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,64.95,0.4057874232005199,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.0,0.4081464156823285,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.05,0.31404246038353334,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.1,0.558150460598515,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.15,0.3629624984110267,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.2,0.26568511944681256,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.25,0.4455897178752786,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.3,0.3785768029129733,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.35,0.5027528035548167,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.4,0.261665451789001,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.45,0.34281959226939,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.5,0.3106853927590892,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.55,0.3585190446210411,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.6,0.3376936385062734,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.65,0.3450691157972386,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.7,0.32817210951817616,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.75,0.2917120044997166,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.8,0.4673654876760433,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.85,0.4123230845559544,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.9,0.30463361329107097,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,65.95,0.4808643661930454,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.0,0.60692644844524,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.05,0.6884383869913,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.1,0.5286481147073028,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.15,0.5823774312064545,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.2,0.5477055755874516,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.25,0.5434198094498516,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.3,0.4499536439212413,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.35,0.46609291981483386,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.4,0.4010890944662703,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.45,0.26471491257936364,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.5,0.4645220863376633,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.55,0.4947161824551812,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.6,0.5816437589268001,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.65,0.46828425518857,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.7,0.3037828061539111,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.75,0.4467557197276666,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.8,0.31878383446798186,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.85,0.4080238256457727,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.9,0.22165548174973845,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,66.95,0.37644524964020004,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,67.0,0.33508649434820004,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,67.05,0.25652151782209165,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,67.1,0.22334913728041425,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,67.15,0.36089605093502,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,50,67.2,0.3018007747567167,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,64.8,0.4629078966035334,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,64.9,0.44946209725066005,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.0,0.39422643136751173,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.1,0.48793803595212726,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.2,0.39617375023371576,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.3,0.4352896762600819,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.4,0.383182373281169,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.5,0.47774348787471,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.6,0.3612982922580165,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.7,0.4207747610648731,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.8,0.5143059533034423,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,65.9,0.44384644565037135,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.0,0.7856559032447771,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.1,0.64449632551706,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.2,0.6832153335932512,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.3,0.6865864574571147,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.4,0.44202628356174856,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.5,0.451005699231924,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.6,0.53006563293175,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.7,0.3569302749040584,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.8,0.4458425440559583,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,66.9,0.3088480348600117,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,67.0,0.3582028582941666,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,67.1,0.30488636982150835,Dataset S1. K-Pg_global_EV.xlsx
+Global EV,100,67.2,0.38564493335016664,Dataset S1. K-Pg_global_EV.xlsx
+Temperature variability,50,64.8,0.161533941682,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,64.85,0.407837432968,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,64.9,0.209039569497,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,64.95,0.214818971696,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.0,0.314457540771,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.05,0.273401172123,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.1,0.314426896486,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.15,0.414441103988,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.2,0.316960369244,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.25,0.310683443063,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.3,0.208507569369,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.35,0.34778465228,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.4,0.928197471909,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.45,0.565408426976,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.5,0.241376928152,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.55,0.216889752907,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.6,0.138411631284,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.65,0.290790037134,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.7,0.666894536809,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.75,0.240360250494,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.8,1.01841835355,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.85,0.715904203972,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.9,0.296105153637,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,65.95,0.344817317981,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.0,0.425504684717,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.05,0.809225881542,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.1,0.6905502193,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.15,0.784336496387,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.2,0.719172293616,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.25,0.54976159112,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.3,0.690946422736,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.35,0.562006359656,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.4,0.437570178031,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.45,0.283407993349,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.5,0.548597943586,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.55,0.569147228012,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.6,1.0147361918,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.65,0.600453740219,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.75,0.422909741547,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.85,0.347418355799,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,66.9,0.135680851354,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,50,67.05,0.129323410218,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,64.8,0.195202054576,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,64.9,0.246424250756,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.0,0.529678403065,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.1,0.480074165793,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.2,0.296024200681,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.3,0.417467141169,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.4,1.04628203569,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.5,0.495524347215,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.6,0.212411518382,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.7,0.651867830057,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.8,0.468941332401,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,65.9,0.402282472107,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.0,0.471967025634,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.1,0.768112102033,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.2,0.815288579258,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.3,0.871552486815,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.4,0.529070385288,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.5,0.44675954349,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.6,0.748515423816,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.7,0.370634942124,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.8,0.463791498353,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,66.9,0.085928589003,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,67.1,0.129323410218,Dataset S2. K-Pg_temperature variability.xlsx
+Temperature variability,100,67.2,0.0681372565072,Dataset S2. K-Pg_temperature variability.xlsx
+d13C variability,50,64.8,0.346752632988,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,64.85,0.210494621398,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,64.9,0.282377814858,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,64.95,0.29731942669,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.0,0.140792941522,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.05,0.175314261919,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.1,0.387467362742,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.15,0.433984912268,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.2,0.220965643329,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.25,0.303189266972,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.3,0.322393589446,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.35,0.418364410664,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.4,0.182701379515,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.45,0.227925255339,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.5,0.245685368623,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.55,0.34767440523,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.6,0.292125724082,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.65,0.256717674871,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.7,0.238542632597,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.75,0.336055698089,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.8,0.325466318133,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.85,0.323517358485,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.9,0.340962570144,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,65.95,0.455603408197,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.0,0.569962483319,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.05,0.361055572146,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.1,0.336982631931,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.15,0.355098757648,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.2,0.285601304888,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.25,0.371238589708,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.3,0.38710185272,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.35,0.381509021219,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.4,0.276292020577,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.45,0.212480715383,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.5,0.343987483702,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.55,0.370521415014,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.6,0.341544129666,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.65,0.410441733523,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.7,0.212976840669,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.75,0.236222329796,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.8,0.181008627751,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.85,0.389067713825,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.9,0.136482336105,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,66.95,0.40431356582,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,67.0,0.272306587271,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,67.05,0.135469571311,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,67.1,0.108858741377,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,67.15,0.182482171172,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,50,67.2,0.0618819183342,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,64.8,0.472793465388,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,64.9,0.288092473379,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.0,0.172730194768,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.1,0.344905359504,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.2,0.356602827136,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.3,0.402375726877,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.4,0.25272721216,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.5,0.26732957518,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.6,0.302083602055,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.7,0.359126391917,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.8,0.513849142318,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,65.9,0.440556248613,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.0,1.18332947763,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.1,0.393976902103,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.2,0.344286826698,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.3,0.511146964881,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.4,0.300160141678,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.5,0.414109631585,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.6,0.39634063387,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.7,0.292845023586,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.8,0.441427699403,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,66.9,0.332464539483,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,67.0,0.243709969837,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,67.1,0.176955745397,Dataset S3. K-Pg_13C variability.xlsx
+d13C variability,100,67.2,0.289524223149,Dataset S3. K-Pg_13C variability.xlsx
+d18O variability,50,64.8,0.439743186169,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,64.85,0.504954390668,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,64.9,0.532020986113,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,64.95,0.609739645702,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.0,0.706729514995,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.05,0.481708819731,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.1,0.787185133051,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.15,0.336812787649,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.2,0.312685252005,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.25,0.632958927033,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.3,0.45905562117,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.35,0.649128456939,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.4,0.27631497476,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.45,0.424004759328,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.5,0.385223057869,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.55,0.387067345441,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.6,0.411730411196,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.65,0.428553076405,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.7,0.372125105665,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.75,0.301740151611,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.8,0.527433019086,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.85,0.420719508814,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.9,0.244223210682,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,65.95,0.61853044979,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.0,0.791179466589,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.05,0.564964615199,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.1,0.50509189719,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.15,0.481714894323,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.2,0.698040673007,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.25,0.620940233657,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.3,0.537148109746,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.35,0.448458417452,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.4,0.507023271662,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.45,0.365754848785,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.5,0.546733272199,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.55,0.765399105968,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.6,0.648660017431,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.65,0.488124375515,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.7,0.376427578542,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.75,0.616578751268,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.8,0.365165146475,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.85,0.44743090304,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.9,0.294370194872,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,66.95,0.400587139096,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,67.0,0.437901465115,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,67.05,0.333308592708,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,67.1,0.309216934208,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,67.15,0.479838637444,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,50,67.2,0.442128155922,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,64.8,0.530921935394,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,64.9,0.712350644449,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.0,0.55417264545,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.1,0.644957486009,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.2,0.506233999835,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.3,0.504090201657,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.4,0.386719330848,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.5,0.607789009032,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.6,0.404336878213,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.7,0.402307606842,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.8,0.553998976707,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,65.9,0.468222968667,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.0,0.86756994414,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.1,0.739110162292,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.2,0.724718494602,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.3,0.758743449504,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.4,0.473863948045,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.5,0.540789461642,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.6,0.625596571028,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.7,0.399975675839,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.8,0.432769259388,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,66.9,0.372153914928,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,67.0,0.44418827577,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,67.1,0.401004349691,Dataset S4. K-Pg_18O variability.xlsx
+d18O variability,100,67.2,0.543359532636,Dataset S4. K-Pg_18O variability.xlsx
+Weathering variability,50,65.05,0.0133884242874,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.1,0.483787449685,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.15,0.0683973849464,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.2,0.102450551069,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.4,0.173964375399,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.45,0.119839284496,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.5,0.318711022923,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.7,0.0618155823653,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.75,0.0712045544924,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.8,0.0204305738326,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.85,0.323254416845,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.9,0.299309739152,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,65.95,0.311042401922,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.0,0.280570162368,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.05,0.639413168129,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.1,0.361563615869,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.15,0.366154249973,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.2,0.347769470444,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.25,0.600613864227,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.3,0.144905119649,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.35,0.341645966421,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.4,0.126485473399,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.45,0.103650345203,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.5,0.163759897716,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.55,0.109929605514,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.8,0.0813813435696,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.9,0.297207561755,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,66.95,0.144262537642,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,67.0,0.0721312688211,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,67.05,0.370256777432,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,50,67.2,0.360656344105,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.1,0.42267559369,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.2,0.0931368646079,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.3,0.0791550366745,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.4,0.195709922324,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.5,0.455929537823,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.6,0.500130293706,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.7,0.277122398909,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.8,0.484382958056,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,65.9,0.386550510612,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.0,0.584319967886,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.1,0.51311816948,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.2,0.561769685436,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.3,0.306507291189,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.4,0.295713830272,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.5,0.337617554639,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.6,0.161849279395,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.8,0.0813813435696,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,66.9,0.270386437607,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,67.0,0.414754795721,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,67.1,0.408234148797,Dataset S5. K-Pg_weathering variability.xlsx
+Weathering variability,100,67.2,0.360656344105,Dataset S5. K-Pg_weathering variability.xlsx
+pCO2 variability,50,65.5,0.46846595032,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,65.8,0.488611881528,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,65.9,0.711449098658,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.0,0.688002109338,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.05,2.06053942727,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.1,0.299906657609,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.15,0.959612854944,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.3,0.0318575799661,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.4,0.464422548995,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.6,0.446843229956,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,50,66.8,0.875380592197,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,65.5,1.12791943507,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,65.7,0.14846864238,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,65.8,0.488611881528,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,65.9,0.711449098658,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,66.0,1.75343835832,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,66.1,0.330224270273,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,66.2,0.530459505782,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,66.3,0.986021319844,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,66.4,0.464422548995,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,66.6,0.446843229956,Dataset S6. K-Pg_pCO2 variability.xlsx
+pCO2 variability,100,66.8,0.875380592197,Dataset S6. K-Pg_pCO2 variability.xlsx

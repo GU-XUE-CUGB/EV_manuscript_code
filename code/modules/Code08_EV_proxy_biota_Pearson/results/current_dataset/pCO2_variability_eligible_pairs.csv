@@ -1,0 +1,64 @@
+"EV_version","predictor","taxon","rate_type","rate_age_Ma","raw_rate","standardized_rate","aligned_variability","EV_bin_width_kyr"
+"Final revised","pCO2 variability","Elasmobranchs","Speciation",66.0108994494949,0.841276274676379,1.13352857554516,0.987200132871329,50
+"Final revised","pCO2 variability","Elasmobranchs","Speciation",66.0609084719416,0.797777072835238,1.01463042430956,1.67642316392365,50
+"Final revised","pCO2 variability","Elasmobranchs","Speciation",66.1109174943883,0.728497632438517,0.825266090410054,0.443953431755718,50
+"Final revised","pCO2 variability","Elasmobranchs","Extinction",66.0108994494949,1.94626049150219,1.61647909370298,0.987200132871329,50
+"Final revised","pCO2 variability","Elasmobranchs","Extinction",66.0609084719416,1.94899774379864,1.62003843497223,1.67642316392365,50
+"Final revised","pCO2 variability","Elasmobranchs","Extinction",66.1109174943883,1.94911059127958,1.620185174349,0.443953431755718,50
+"Final revised","pCO2 variability","Elasmobranchs","Net diversification",66.0108994494949,-1.1425452859141,-1.25318125678845,0.987200132871329,50
+"Final revised","pCO2 variability","Elasmobranchs","Net diversification",66.0609084719416,-1.22636382872312,-1.37309107310443,1.67642316392365,50
+"Final revised","pCO2 variability","Elasmobranchs","Net diversification",66.1109174943883,-1.30126033004931,-1.48023712236463,0.443953431755718,50
+"Final revised","pCO2 variability","Bivalves","Speciation",65.7939120657015,0.691012715065195,1.63232496404693,0.467904184607907,100
+"Final revised","pCO2 variability","Bivalves","Speciation",65.8940463619153,0.690177695468764,1.62881628899682,0.698182177232053,100
+"Final revised","pCO2 variability","Bivalves","Speciation",65.9941806581291,0.588693167529766,1.20238769657338,1.69280144104216,100
+"Final revised","pCO2 variability","Bivalves","Speciation",66.0943149543429,0.588693167529766,1.20238769657338,0.411134640976592,100
+"Final revised","pCO2 variability","Bivalves","Speciation",66.1944492505567,0.100233525406312,-0.85007450506949,0.519344949561692,100
+"Final revised","pCO2 variability","Bivalves","Speciation",66.2945835467706,0.098628903708106,-0.856816976912581,0.96134602725432,100
+"Final revised","pCO2 variability","Bivalves","Speciation",66.3947178429844,0.095246790525048,-0.871028303440454,0.491974215062681,100
+"Final revised","pCO2 variability","Bivalves","Extinction",65.7939120657015,2.03918180717847,1.68005012962884,0.467904184607907,100
+"Final revised","pCO2 variability","Bivalves","Extinction",65.8940463619153,2.29023882669387,1.98845685837578,0.698182177232053,100
+"Final revised","pCO2 variability","Bivalves","Extinction",65.9941806581291,2.29023882669387,1.98845685837578,1.69280144104216,100
+"Final revised","pCO2 variability","Bivalves","Extinction",66.0943149543429,2.29023882669387,1.98845685837578,0.411134640976592,100
+"Final revised","pCO2 variability","Bivalves","Extinction",66.1944492505567,1.38250326345032,0.873364533263421,0.519344949561692,100
+"Final revised","pCO2 variability","Bivalves","Extinction",66.2945835467706,0.546580673412398,-0.153510365422504,0.96134602725432,100
+"Final revised","pCO2 variability","Bivalves","Extinction",66.3947178429844,0.397762365985856,-0.336323685917059,0.491974215062681,100
+"Final revised","pCO2 variability","Bivalves","Net diversification",65.7939120657015,-1.06725855583478,-1.09873896978267,0.467904184607907,100
+"Final revised","pCO2 variability","Bivalves","Net diversification",65.8940463619153,-1.51661393365036,-1.83122801815148,0.698182177232053,100
+"Final revised","pCO2 variability","Bivalves","Net diversification",65.9941806581291,-1.67655015183176,-2.09193821333129,1.69280144104216,100
+"Final revised","pCO2 variability","Bivalves","Net diversification",66.0943149543429,-1.67610413060235,-2.09121115924,0.411134640976592,100
+"Final revised","pCO2 variability","Bivalves","Net diversification",66.1944492505567,-1.14851773814953,-1.23119863102965,0.519344949561692,100
+"Final revised","pCO2 variability","Bivalves","Net diversification",66.2945835467706,-0.776734799481931,-0.625159526149608,0.96134602725432,100
+"Final revised","pCO2 variability","Bivalves","Net diversification",66.3947178429844,-0.614288689620965,-0.360357985325259,0.491974215062681,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",65.5,32.75824968,0.860102260110349,1.12791943507,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",65.7,31.09243378,0.663662394809125,0.14846864238,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",65.8,30.08114511,0.544407073668623,0.488611881528,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",65.9,28.9631855,0.412572676361808,0.711449098658,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",66,27.74774209,0.269242588240028,1.75343835832,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",66.1,26.44400205,0.115500198192357,0.330224270273,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",66.2,25.06115253,-0.0475711072506179,0.530459505782,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",66.3,23.60838068,-0.218887941558305,0.986021319844,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",66.4,22.09487366,-0.397366917020875,0.464422548995,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",66.6,18.92280219,-0.771430636962951,0.446843229956,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Speciation",66.8,15.62802264,-1.15996459860855,0.875380592197,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",65.5,33.41781625,-0.44117669760037,1.12791943507,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",65.7,41.08327162,0.0336595415807346,0.14846864238,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",65.8,44.62258061,0.2529018551801,0.488611881528,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",65.9,47.87609741,0.454440786248789,0.711449098658,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",66,50.77618723,0.634086701194114,1.75343835832,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",66.1,53.25521528,0.787649966423388,0.330224270273,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",66.2,55.24554678,0.910940948963371,0.530459505782,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",66.3,56.67954693,0.999770014601926,0.986021319844,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",66.4,57.48958096,1.04994753098526,0.464422548995,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",66.6,56.98989359,1.01899442251558,0.446843229956,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Extinction",66.8,53.74977779,0.818285615703591,0.875380592197,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",65.5,-0.65956657,0.635012685914957,1.12791943507,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",65.7,-9.99083784,0.223971464213762,0.14846864238,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",65.8,-14.5414355,0.0235182604096249,0.488611881528,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",65.9,-18.91291191,-0.169044676859302,0.711449098658,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",66,-23.02844514,-0.35033335209584,1.75343835832,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",66.1,-26.81121323,-0.516963768481312,0.330224270273,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",66.2,-30.18439425,-0.66555193051854,0.530459505782,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",66.3,-33.07116625,-0.792713841829344,0.986021319844,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",66.4,-35.3947073,-0.895065506916547,0.464422548995,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",66.6,-38.0670914,-1.01278366058875,0.446843229956,100
+"Final revised","pCO2 variability","Calcareous nannofossils","Net diversification",66.8,-38.12175515,-1.01519159129107,0.875380592197,100

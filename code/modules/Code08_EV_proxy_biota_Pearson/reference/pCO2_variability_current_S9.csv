@@ -1,0 +1,10 @@
+Taxon,Biological_variable,n,Pearson_r,Nominal_P
+Elasmobranchs,Speciation,3,0.553484,0.626596
+Elasmobranchs,Extinction,3,0.033302,0.978795
+Elasmobranchs,Net diversification,3,0.410387,0.730787
+Bivalves,Speciation,7,0.126033,0.787735
+Bivalves,Extinction,7,0.171858,0.712535
+Bivalves,Net diversification,7,-0.326893,0.474218
+Calcareous nannofossils,Speciation,12,-0.137977,0.668921
+Calcareous nannofossils,Extinction,12,0.239562,0.453298
+Calcareous nannofossils,Net diversification,12,-0.21318,0.505894

@@ -1,0 +1,4763 @@
+{
+  "metadata": {
+    "seed": 20260929,
+    "iterations": 10000,
+    "rng": "NumPy Generator(PCG64), SeedSequence.spawn(1 baseline + one per sorted canonical site)",
+    "draw_rule": "Each eligible bin: choose k=min(low sites, mid-high sites) separately without replacement; average site-mean record IQR; ΔEV=mid-high−low",
+    "phase_rule": "Arithmetic mean of eligible bin ΔEV in each predefined phase, per iteration; unavailable if no eligible bin",
+    "site_count": 26,
+    "record_bin_count": 898,
+    "source_sha256": {
+      "iqr": "ad9b2fe111b926db93b809456d96753530c20bccf1a5b0c2b00b1e852a76de2d",
+      "latitude": "e3d5d0e9f6cdfc225f0992ae39a7fee9546caea952d4cb7dae815c4996611d78",
+      "canonical": "5f83bedbfa2613a53ae73958f58c1089b1fd21326c1ffb5b5eff5f5c11dfebde",
+      "s1": "e538ce5cb61e770c4bd03169682977d2cdb07d549f9d8ecb9b7de8179c5c7c4b"
+    },
+    "canonical_site_note": "Use existing v5 canonical site mapping. Pooled pCO2 is not in the latitude IQR sheets; legacy site aliases within one operational record count as one canonical site."
+  },
+  "phase_summary": [
+    {
+      "phase": "Pre",
+      "eligible_bins": 0,
+      "total_bins": 6,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "phase": "Phase 1",
+      "eligible_bins": 1,
+      "total_bins": 10,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504
+    },
+    {
+      "phase": "Phase 2",
+      "eligible_bins": 6,
+      "total_bins": 8,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.025217029776706267,
+      "p2_5": -0.13841051298398155,
+      "p97_5": 0.20283406864998446
+    }
+  ],
+  "bin_summary": [
+    {
+      "midpoint_Ma": 67.2,
+      "low_sites": 1,
+      "mid_high_sites": 2,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 67.15,
+      "low_sites": 1,
+      "mid_high_sites": 2,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 67.1,
+      "low_sites": 1,
+      "mid_high_sites": 2,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 67.05,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Garfield County, Montana; IODP U1403; ODP 1262; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 67.0,
+      "low_sites": 1,
+      "mid_high_sites": 3,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.95,
+      "low_sites": 1,
+      "mid_high_sites": 3,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.9,
+      "low_sites": 1,
+      "mid_high_sites": 5,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; Seymour Island, Antarctica; Songliao Basin, eastern China; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.85,
+      "low_sites": 1,
+      "mid_high_sites": 5,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; Meirs Farm, New Jersey; ODP 1262; Seymour Island, Antarctica; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.8,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Bottaccione Section, Italy; IODP U1403; ODP 1262; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.75,
+      "low_sites": 0,
+      "mid_high_sites": 5,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "",
+      "mid_high_site_names": "IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.7,
+      "low_sites": 1,
+      "mid_high_sites": 3,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.65,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.6,
+      "low_sites": 2,
+      "mid_high_sites": 6,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "ODP 1209; ODP 1210",
+      "mid_high_site_names": "IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Songliao Basin, eastern China; Stevns-1 Core, Denmark",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504
+    },
+    {
+      "midpoint_Ma": 66.55,
+      "low_sites": 1,
+      "mid_high_sites": 6,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark; Williston Basin, North Dakota",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.5,
+      "low_sites": 1,
+      "mid_high_sites": 6,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Bass River, New Jersey; DSDP 525; IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.45,
+      "low_sites": 1,
+      "mid_high_sites": 7,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Bass River, New Jersey; DSDP 525; Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Stevns-1 Core, Denmark",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.4,
+      "low_sites": 2,
+      "mid_high_sites": 11,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "DSDP 384; ODP 1209",
+      "mid_high_site_names": "Bass River, New Jersey; DSDP 525; Garfield County, Montana; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Songliao Basin, eastern China; Stevns-1 Core, Denmark; West Texas",
+      "median": 0.031208919892612486,
+      "p2_5": -0.24235865097715417,
+      "p97_5": 0.5164341853646126
+    },
+    {
+      "midpoint_Ma": 66.35,
+      "low_sites": 1,
+      "mid_high_sites": 10,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Bass River, New Jersey; DSDP 525; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark; West Texas",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.3,
+      "low_sites": 2,
+      "mid_high_sites": 9,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "DSDP 465; ODP 1209",
+      "mid_high_site_names": "Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Songliao Basin, eastern China; Stevns-1 Core, Denmark; West Texas",
+      "median": -0.06216998760423814,
+      "p2_5": -0.40496976230903814,
+      "p97_5": 0.31849003793616176
+    },
+    {
+      "midpoint_Ma": 66.25,
+      "low_sites": 3,
+      "mid_high_sites": 11,
+      "k": 3,
+      "eligible": true,
+      "low_site_names": "Nanxiong Basin, China; ODP 1209; ODP 1210",
+      "mid_high_site_names": "Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; ODP 1262; ODP 690; Seymour Island, Antarctica; Songliao Basin, eastern China; Stevns-1 Core, Denmark; West Texas",
+      "median": 0.07028632968258891,
+      "p2_5": -0.29844970093459444,
+      "p97_5": 0.7904808384567112
+    },
+    {
+      "midpoint_Ma": 66.2,
+      "low_sites": 3,
+      "mid_high_sites": 12,
+      "k": 3,
+      "eligible": true,
+      "low_site_names": "DSDP 577; ODP 1209; ODP 1210",
+      "mid_high_site_names": "Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Seymour Island, Antarctica; Songliao Basin, eastern China; Stevns-1 Core, Denmark",
+      "median": -0.11348012958797338,
+      "p2_5": -0.4234315996481845,
+      "p97_5": 0.21737553034869317
+    },
+    {
+      "midpoint_Ma": 66.15,
+      "low_sites": 4,
+      "mid_high_sites": 12,
+      "k": 4,
+      "eligible": true,
+      "low_site_names": "DSDP 465; DSDP 577; ODP 1049; ODP 1209",
+      "mid_high_site_names": "Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark; West Texas",
+      "median": -0.06467871124400404,
+      "p2_5": -0.42808668303104574,
+      "p97_5": 0.3705645467718959
+    },
+    {
+      "midpoint_Ma": 66.1,
+      "low_sites": 1,
+      "mid_high_sites": 14,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; DSDP 525; DSDP 528; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 1267; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark; Williston Basin, North Dakota",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 66.05,
+      "low_sites": 6,
+      "mid_high_sites": 14,
+      "k": 6,
+      "eligible": true,
+      "low_site_names": "DSDP 465; DSDP 577; El Kef, Tunisia; ODP 1049; ODP 1209; ODP 1210",
+      "mid_high_site_names": "Bajada del Jagüel, Argentina; Bass River, New Jersey; Bottaccione Section, Italy; Brazos River, Texas; DSDP 525; DSDP 528; Haymana Basin, Turkey; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 1267; ODP 690; Seymour Island, Antarctica; Stevns-1 Core, Denmark",
+      "median": 0.15906997015572766,
+      "p2_5": -0.13258207176769304,
+      "p97_5": 0.51915204733095
+    },
+    {
+      "midpoint_Ma": 66.0,
+      "low_sites": 6,
+      "mid_high_sites": 7,
+      "k": 6,
+      "eligible": true,
+      "low_site_names": "DSDP 465; DSDP 577; El Kef, Tunisia; Nanxiong Basin, China; ODP 1049; ODP 1209",
+      "mid_high_site_names": "Brazos River, Texas; IODP U1403; Meirs Farm, New Jersey; ODP 1262; ODP 1267; Songliao Basin, eastern China; Stevns-1 Core, Denmark",
+      "median": 0.1762826052656024,
+      "p2_5": 0.07636363371993576,
+      "p97_5": 0.27334271768896906
+    },
+    {
+      "midpoint_Ma": 65.95,
+      "low_sites": 5,
+      "mid_high_sites": 7,
+      "k": 5,
+      "eligible": true,
+      "low_site_names": "DSDP 465; El Kef, Tunisia; ODP 1049; ODP 1209; ODP 1210",
+      "mid_high_site_names": "Brazos River, Texas; IODP U1403; ODP 1262; ODP 1267; ODP 690; Seymour Island, Antarctica; Songliao Basin, eastern China",
+      "median": -0.009718145302686665,
+      "p2_5": -0.13078216049932,
+      "p97_5": 0.07987789293301334
+    },
+    {
+      "midpoint_Ma": 65.9,
+      "low_sites": 4,
+      "mid_high_sites": 6,
+      "k": 4,
+      "eligible": true,
+      "low_site_names": "El Kef, Tunisia; ODP 1049; ODP 1209; ODP 1210",
+      "mid_high_site_names": "Brazos River, Texas; IODP U1403; ODP 1262; ODP 1267; ODP 690; Songliao Basin, eastern China",
+      "median": -0.16049278126270872,
+      "p2_5": -0.24570487950580205,
+      "p97_5": -0.10207019452259203
+    },
+    {
+      "midpoint_Ma": 65.85,
+      "low_sites": 3,
+      "mid_high_sites": 5,
+      "k": 3,
+      "eligible": true,
+      "low_site_names": "El Kef, Tunisia; ODP 1049; ODP 1209",
+      "mid_high_site_names": "Brazos River, Texas; IODP U1403; ODP 1262; ODP 1267; Seymour Island, Antarctica",
+      "median": -0.24154791444734763,
+      "p2_5": -0.35069079070501424,
+      "p97_5": -0.12892222415884758
+    },
+    {
+      "midpoint_Ma": 65.8,
+      "low_sites": 2,
+      "mid_high_sites": 4,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "El Kef, Tunisia; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",
+      "median": 0.05415213789474754,
+      "p2_5": -0.19110070047900246,
+      "p97_5": 0.32533210173745425
+    },
+    {
+      "midpoint_Ma": 65.75,
+      "low_sites": 1,
+      "mid_high_sites": 5,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "Bajada del Jagüel, Argentina; IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.7,
+      "low_sites": 2,
+      "mid_high_sites": 4,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "ODP 1049; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",
+      "median": -0.1953769030956778,
+      "p2_5": -0.3323737475389278,
+      "p97_5": -0.05734269612209775
+    },
+    {
+      "midpoint_Ma": 65.65,
+      "low_sites": 2,
+      "mid_high_sites": 3,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "Nanxiong Basin, China; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267",
+      "median": 0.08969743238334832,
+      "p2_5": -0.09322991592952667,
+      "p97_5": 0.12371291071029167
+    },
+    {
+      "midpoint_Ma": 65.6,
+      "low_sites": 1,
+      "mid_high_sites": 3,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.55,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; Songliao Basin, eastern China",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.5,
+      "low_sites": 2,
+      "mid_high_sites": 5,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "DSDP 384; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690; Songliao Basin, eastern China",
+      "median": -0.0572515851940911,
+      "p2_5": -0.1549789989345286,
+      "p97_5": 0.008416775710283875
+    },
+    {
+      "midpoint_Ma": 65.45,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.4,
+      "low_sites": 2,
+      "mid_high_sites": 4,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "Nanxiong Basin, China; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": 0.18978787063927555,
+      "p2_5": 0.14602297148827553,
+      "p97_5": 0.5047379054205255
+    },
+    {
+      "midpoint_Ma": 65.35,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.3,
+      "low_sites": 1,
+      "mid_high_sites": 3,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.25,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.2,
+      "low_sites": 2,
+      "mid_high_sites": 4,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "DSDP 384; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": 0.08625420999514166,
+      "p2_5": -0.016253053432233322,
+      "p97_5": 0.133700015917725
+    },
+    {
+      "midpoint_Ma": 65.15,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.1,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.05,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 65.0,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 64.95,
+      "low_sites": 1,
+      "mid_high_sites": 4,
+      "k": 0,
+      "eligible": false,
+      "low_site_names": "ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null
+    },
+    {
+      "midpoint_Ma": 64.9,
+      "low_sites": 3,
+      "mid_high_sites": 4,
+      "k": 3,
+      "eligible": true,
+      "low_site_names": "DSDP 384; Nanxiong Basin, China; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": 0.01747893202413331,
+      "p2_5": -0.13358614335648333,
+      "p97_5": 0.060665303552216665
+    },
+    {
+      "midpoint_Ma": 64.85,
+      "low_sites": 2,
+      "mid_high_sites": 3,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "Nanxiong Basin, China; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267",
+      "median": -0.09530674051764998,
+      "p2_5": -0.182843903537475,
+      "p97_5": -0.062991233229725
+    },
+    {
+      "midpoint_Ma": 64.8,
+      "low_sites": 2,
+      "mid_high_sites": 4,
+      "k": 2,
+      "eligible": true,
+      "low_site_names": "Nanxiong Basin, China; ODP 1209",
+      "mid_high_site_names": "IODP U1403; ODP 1262; ODP 1267; ODP 690",
+      "median": -0.14235888677422498,
+      "p2_5": -0.20194743499472495,
+      "p97_5": -0.10670412967547499
+    }
+  ],
+  "loo_summary": [
+    {
+      "removed_site": "Bajada del Jagüel, Argentina",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Bajada del Jagüel, Argentina",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Bajada del Jagüel, Argentina",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.015345652577846872,
+      "p2_5": -0.13669132106895518,
+      "p97_5": 0.18928288713546107,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.009871377198859395
+    },
+    {
+      "removed_site": "Bass River, New Jersey",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Bass River, New Jersey",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Bass River, New Jersey",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.0250195737508261,
+      "p2_5": -0.13682119726973527,
+      "p97_5": 0.204726273236038,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.00019745602588016817
+    },
+    {
+      "removed_site": "Bottaccione Section, Italy",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Bottaccione Section, Italy",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Bottaccione Section, Italy",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.05169387954110101,
+      "p2_5": -0.1111855934997285,
+      "p97_5": 0.22758388729704132,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.026476849764394742
+    },
+    {
+      "removed_site": "Brazos River, Texas",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Brazos River, Texas",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Brazos River, Texas",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.024341304091023738,
+      "p2_5": -0.13522575799901349,
+      "p97_5": 0.20747319205987902,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.0008757256856825289
+    },
+    {
+      "removed_site": "DSDP 384",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "DSDP 384",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "DSDP 384",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 5,
+      "eligible_midpoints_Ma": "66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.011985707998389588,
+      "p2_5": -0.1619424322739897,
+      "p97_5": 0.21438040630816602,
+      "baseline_same_bins_median": 0.013840574582679899,
+      "change_vs_same_bins": -0.0018548665842903107
+    },
+    {
+      "removed_site": "DSDP 465",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "DSDP 465",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "DSDP 465",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 5,
+      "eligible_midpoints_Ma": "66.40; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.009809247317897722,
+      "p2_5": -0.17911235978213272,
+      "p97_5": 0.2304050681646036,
+      "baseline_same_bins_median": 0.04315998843634904,
+      "change_vs_same_bins": -0.033350741118451314
+    },
+    {
+      "removed_site": "DSDP 525",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "DSDP 525",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "DSDP 525",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.022555514381448705,
+      "p2_5": -0.13865995328852065,
+      "p97_5": 0.20864634665298842,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.0026615153952575625
+    },
+    {
+      "removed_site": "DSDP 528",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "DSDP 528",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "DSDP 528",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.027505643731373357,
+      "p2_5": -0.13160458808027956,
+      "p97_5": 0.2119851397919718,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.0022886139546670903
+    },
+    {
+      "removed_site": "DSDP 577",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "DSDP 577",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "DSDP 577",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": -0.06815950886495922,
+      "p2_5": -0.2448355733597179,
+      "p97_5": 0.12705692930653537,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.0933765386416655
+    },
+    {
+      "removed_site": "El Kef, Tunisia",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "El Kef, Tunisia",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "El Kef, Tunisia",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.03670732917319121,
+      "p2_5": -0.12926484761534374,
+      "p97_5": 0.22451401884087885,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.011490299396484941
+    },
+    {
+      "removed_site": "Garfield County, Montana",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Garfield County, Montana",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Garfield County, Montana",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.030453625051532325,
+      "p2_5": -0.1275696556937092,
+      "p97_5": 0.21260581846257362,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.005236595274826058
+    },
+    {
+      "removed_site": "Haymana Basin, Turkey",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Haymana Basin, Turkey",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Haymana Basin, Turkey",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.006149153837698271,
+      "p2_5": -0.15086873432635559,
+      "p97_5": 0.17778801512292638,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.019067875939007994
+    },
+    {
+      "removed_site": "IODP U1403",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "IODP U1403",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.603906806181,
+      "p2_5": 0.12347122525262494,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.15872256523900002
+    },
+    {
+      "removed_site": "IODP U1403",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.06406788048938986,
+      "p2_5": -0.09432192421891317,
+      "p97_5": 0.24073508864425752,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.038850850712683585
+    },
+    {
+      "removed_site": "Meirs Farm, New Jersey",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Meirs Farm, New Jersey",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.5364950908746249,
+      "p2_5": 0.09714220216612496,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0913108499326249
+    },
+    {
+      "removed_site": "Meirs Farm, New Jersey",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.027986305690328773,
+      "p2_5": -0.13254262440632952,
+      "p97_5": 0.20584634472363605,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.0027692759136225056
+    },
+    {
+      "removed_site": "Nanxiong Basin, China",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Nanxiong Basin, China",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Nanxiong Basin, China",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": -0.009418372158466349,
+      "p2_5": -0.1818023153852277,
+      "p97_5": 0.20435898629641808,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.034635401935172616
+    },
+    {
+      "removed_site": "ODP 1049",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 1049",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "ODP 1049",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.11403870502001791,
+      "p2_5": -0.05874238085936407,
+      "p97_5": 0.3058673725687794,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.08882167524331164
+    },
+    {
+      "removed_site": "ODP 1209",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 1209",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 1209",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 4,
+      "eligible_midpoints_Ma": "66.25; 66.20; 66.15; 66.05",
+      "median": 0.041445772747062945,
+      "p2_5": -0.19352026932924057,
+      "p97_5": 0.359413730749191,
+      "baseline_same_bins_median": 0.03338638653784862,
+      "change_vs_same_bins": 0.008059386209214328
+    },
+    {
+      "removed_site": "ODP 1210",
+      "latitude_group": "low",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 1210",
+      "latitude_group": "low",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 1210",
+      "latitude_group": "low",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.07172693950782669,
+      "p2_5": -0.10404552122445927,
+      "p97_5": 0.29236252641447313,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.046509909731120416
+    },
+    {
+      "removed_site": "ODP 1262",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 1262",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.603906806181,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.15872256523900002
+    },
+    {
+      "removed_site": "ODP 1262",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.040428118447163,
+      "p2_5": -0.12808069382509904,
+      "p97_5": 0.22551883170871573,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.015211088670456733
+    },
+    {
+      "removed_site": "ODP 1267",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 1267",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "ODP 1267",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.02808591081049261,
+      "p2_5": -0.12948833966346096,
+      "p97_5": 0.2135805684900664,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.002868881033786342
+    },
+    {
+      "removed_site": "ODP 690",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "ODP 690",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.19088294055899996,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 0.603906806181,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": -0.25430130038300003
+    },
+    {
+      "removed_site": "ODP 690",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.00642091221023527,
+      "p2_5": -0.1503939941850452,
+      "p97_5": 0.1778812753643314,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.018796117566470996
+    },
+    {
+      "removed_site": "Seymour Island, Antarctica",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Seymour Island, Antarctica",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Seymour Island, Antarctica",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.010727620166647403,
+      "p2_5": -0.15033474437346678,
+      "p97_5": 0.19048689842519295,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.014489409610058865
+    },
+    {
+      "removed_site": "Songliao Basin, eastern China",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Songliao Basin, eastern China",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.2821937904916249,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 0.8964248001209998,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": -0.16299045045037508
+    },
+    {
+      "removed_site": "Songliao Basin, eastern China",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.03807304207699813,
+      "p2_5": -0.12388906938732085,
+      "p97_5": 0.22016388897313233,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.012856012300291864
+    },
+    {
+      "removed_site": "Stevns-1 Core, Denmark",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Stevns-1 Core, Denmark",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Stevns-1 Core, Denmark",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": -0.021390910019347384,
+      "p2_5": -0.165633498091658,
+      "p97_5": 0.1322248812275167,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.046607939796053655
+    },
+    {
+      "removed_site": "West Texas",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "West Texas",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "West Texas",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.03360966015162875,
+      "p2_5": -0.13253032522981645,
+      "p97_5": 0.21372620308949733,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": 0.008392630374922484
+    },
+    {
+      "removed_site": "Williston Basin, North Dakota",
+      "latitude_group": "mid_high",
+      "phase": "Pre",
+      "eligible_bins_after_removal": 0,
+      "eligible_midpoints_Ma": "",
+      "median": null,
+      "p2_5": null,
+      "p97_5": null,
+      "baseline_same_bins_median": null,
+      "change_vs_same_bins": null
+    },
+    {
+      "removed_site": "Williston Basin, North Dakota",
+      "latitude_group": "mid_high",
+      "phase": "Phase 1",
+      "eligible_bins_after_removal": 1,
+      "eligible_midpoints_Ma": "66.60",
+      "median": 0.445184240942,
+      "p2_5": 0.005831352233500009,
+      "p97_5": 1.150726100504,
+      "baseline_same_bins_median": 0.445184240942,
+      "change_vs_same_bins": 0.0
+    },
+    {
+      "removed_site": "Williston Basin, North Dakota",
+      "latitude_group": "mid_high",
+      "phase": "Phase 2",
+      "eligible_bins_after_removal": 6,
+      "eligible_midpoints_Ma": "66.40; 66.30; 66.25; 66.20; 66.15; 66.05",
+      "median": 0.02373495284801586,
+      "p2_5": -0.13130465447405226,
+      "p97_5": 0.20546512322664387,
+      "baseline_same_bins_median": 0.025217029776706267,
+      "change_vs_same_bins": -0.0014820769286904081
+    }
+  ],
+  "site_contributions": [
+    {
+      "age_Ma": 67.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.906167553241,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 67.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.1440490731229,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.2,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 0.20551298301783336,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 67.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.658949376207,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 67.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.18228230725705,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.15,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.390483131977,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.520818535958,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 67.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.102649667944,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.1,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 4,
+      "site_mean_IQR": 0.20933152227922502,
+      "record_ids": "d13C::ODP1209 5; d13C::ODP1209 6; d18O::ODP1209 5; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.786590377502,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 67.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 2,
+      "site_mean_IQR": 0.2597170198305,
+      "record_ids": "d13C::ODP1262 2; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.1185009240961,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Garfield County, Montana",
+      "record_count": 1,
+      "site_mean_IQR": 0.129323410218,
+      "record_ids": "temperature::Garfield County ",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 67.05,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 6,
+      "site_mean_IQR": 0.23431808971531665,
+      "record_ids": "d13C::ODP1209 5; d13C::ODP1209 6; d18O::ODP1209 5; d18O::ODP1209 6; weathering::ODP1209C Ca; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 67.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 1.30656873625,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 67.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.34878379782599994,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.04177256962195,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 67.0,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 0.18853862556136666,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.721186388675,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.3022408588695,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.19540322652550002,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.95,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 0.4811654063993333,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.516029114956,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 3,
+      "site_mean_IQR": 0.14314150087566666,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin; temperature::Songliao Basin",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 66.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 1,
+      "site_mean_IQR": 0.297207561755,
+      "record_ids": "weathering::Seymour Island, Antarctica Ca",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.30497134556774996,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.041445430023250004,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.9,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.16804192054555,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.886966564958,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 1,
+      "site_mean_IQR": 0.571158978704,
+      "record_ids": "temperature::Seymour Island 3",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.3065822833575,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.123677732894,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.07164310264175,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.85,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.768421733417,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.780585163812,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.30732131925300005,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.1937691816079,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bottaccione Section, Italy",
+      "record_count": 1,
+      "site_mean_IQR": 0.0813813435696,
+      "record_ids": "weathering::Bottaccione Section, Gubbio Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.8,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.07622571967069999,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 1.51503877299,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.289269685069,
+      "record_ids": "temperature::ODP690",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.344519082001,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.556549798024,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.140933446731,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.7,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.533074840226,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.7,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.31686721914025,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.7,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.1546291252081,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.7,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.31212164409099996,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.65,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.679997952479,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.65,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.600453740219,
+      "record_ids": "temperature::ODP690",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.65,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.5121196152402501,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.65,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.15584286833985,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.65,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.5211133307735,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.626639462714,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 1.13524206348,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 1.72027805136,
+      "record_ids": "temperature::ODP690",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.49181603210124997,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.309194332236,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.256536286063,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1210",
+      "record_count": 1,
+      "site_mean_IQR": 0.237255347519,
+      "record_ids": "d18O::ODP1210",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.6,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.31681256631300003,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "Williston Basin, North Dakota",
+      "record_count": 1,
+      "site_mean_IQR": 0.245793903553,
+      "record_ids": "temperature::Williston Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 2.38698299611,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 1.00806102373,
+      "record_ids": "temperature::ODP690",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.28718868214108,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.125264981986,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 1,
+      "site_mean_IQR": 0.522672620338,
+      "record_ids": "temperature::Haymana Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.55,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.41309500017490003,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Ca2; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 1.35324747893,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 1.18370517771,
+      "record_ids": "temperature::ODP690; temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.3457210966,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.24717493288050002,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 0.487155840374,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 3,
+      "site_mean_IQR": 0.18837304639219998,
+      "record_ids": "temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.5,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 4,
+      "site_mean_IQR": 0.335718909345,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.446066183446,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 0.4182901744305,
+      "record_ids": "temperature::ODP690; temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 6,
+      "site_mean_IQR": 0.2636837991293333,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; temperature::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.11021848277573333,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 1,
+      "site_mean_IQR": 0.304532394495,
+      "record_ids": "temperature::Haymana Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 0.32569507769399997,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 3,
+      "site_mean_IQR": 0.2617144079036,
+      "record_ids": "temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.45,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 4,
+      "site_mean_IQR": 0.2218143819355,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "West Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.432078477067,
+      "record_ids": "temperature::West Texas",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.619596678691,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.48224333445699996,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 1.166992714625,
+      "record_ids": "temperature::ODP690; temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.44999607940625,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.525630364801,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.15887198046526665,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 1,
+      "site_mean_IQR": 0.196542183681,
+      "record_ids": "temperature::Haymana Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "Garfield County, Montana",
+      "record_count": 1,
+      "site_mean_IQR": 0.0161654262772,
+      "record_ids": "temperature::Garfield County ",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 0.437037168212,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 3,
+      "site_mean_IQR": 0.06452674121673334,
+      "record_ids": "temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 4,
+      "site_mean_IQR": 0.424162748373775,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.4,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 384",
+      "record_count": 1,
+      "site_mean_IQR": 0.235591960323,
+      "record_ids": "temperature::DSDP384",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "West Texas",
+      "record_count": 1,
+      "site_mean_IQR": 1.34424415088,
+      "record_ids": "temperature::West Texas",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.568363069873,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 1,
+      "site_mean_IQR": 0.217837377924,
+      "record_ids": "temperature::Seymour Island 3",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 0.913372891244,
+      "record_ids": "temperature::ODP690; temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.5574421876448801,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.278274899012,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.06831128374146667,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 1,
+      "site_mean_IQR": 0.464357906499,
+      "record_ids": "temperature::Haymana Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 0.40054418886800003,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 3,
+      "site_mean_IQR": 0.4396831000570667,
+      "record_ids": "temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.35,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 8,
+      "site_mean_IQR": 0.4048120125979187,
+      "record_ids": "d13C::ODP1209 5; d13C::ODP1209 6; d18O::ODP1209 5; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Ca; weathering::ODP1209C Ca2; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "West Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.144026159022,
+      "record_ids": "temperature::West Texas",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.735445622346,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.376593957932,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 3,
+      "site_mean_IQR": 0.8711062709736664,
+      "record_ids": "temperature::ODP690; temperature::ODP690 2; weathering::ODP690C Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 6,
+      "site_mean_IQR": 0.35895894425558333,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; temperature::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.12088461709086666,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 1,
+      "site_mean_IQR": 0.323970632441,
+      "record_ids": "temperature::Haymana Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 0.746544019544,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bottaccione Section, Italy",
+      "record_count": 1,
+      "site_mean_IQR": 0.0498460729364,
+      "record_ids": "weathering::Bottaccione Section, Gubbio Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 7,
+      "site_mean_IQR": 0.5678061846133429,
+      "record_ids": "d13C::ODP1209 5; d13C::ODP1209 6; d18O::ODP1209 5; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Ca; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.3,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 465",
+      "record_count": 1,
+      "site_mean_IQR": 0.412864030032,
+      "record_ids": "d18O::DSDP465",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "West Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.0960174393483,
+      "record_ids": "temperature::West Texas",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 2.15125247505,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.16448823261845,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 3,
+      "site_mean_IQR": 1.1406502163383334,
+      "record_ids": "temperature::Seymour Island 3; weathering::Seymour Island, Antarctica Ca; weathering::Seymour Island, Antarctica Sr",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 3,
+      "site_mean_IQR": 0.3797851062106667,
+      "record_ids": "temperature::ODP690; temperature::ODP690 2; weathering::ODP690C Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.3700429730164,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.08468238829393333,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 1,
+      "site_mean_IQR": 0.971911897323,
+      "record_ids": "temperature::Haymana Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 0.6765190409374999,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bottaccione Section, Italy",
+      "record_count": 1,
+      "site_mean_IQR": 0.249738998079,
+      "record_ids": "weathering::Bottaccione Section, Gubbio Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 3,
+      "site_mean_IQR": 0.48513359683133334,
+      "record_ids": "temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1210",
+      "record_count": 1,
+      "site_mean_IQR": 0.28760849255,
+      "record_ids": "d18O::ODP1210B",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 1.0505308947793333,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 66.25,
+      "latitude_group": "low",
+      "canonical_site": "Nanxiong Basin, China",
+      "record_count": 2,
+      "site_mean_IQR": 0.0674543855202,
+      "record_ids": "d13C::Nanxiong Basin; d18O::Nanxiong Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 1.13353411683,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.18545021758000002,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 2,
+      "site_mean_IQR": 0.914234864993,
+      "record_ids": "weathering::Seymour Island, Antarctica Ca; weathering::Seymour Island, Antarctica Sr",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 0.573317514573,
+      "record_ids": "temperature::ODP690; weathering::ODP690C Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.36183398003143996,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.309194332236,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.2208011071238667,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 2,
+      "site_mean_IQR": 1.1991291582085,
+      "record_ids": "temperature::Haymana Basin; temperature::Haymana Basin 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 0.5729110722190001,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bottaccione Section, Italy",
+      "record_count": 1,
+      "site_mean_IQR": 0.371302380036,
+      "record_ids": "weathering::Bottaccione Section, Gubbio Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 4,
+      "site_mean_IQR": 0.8292932708095,
+      "record_ids": "temperature::Bass River; temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bajada del Jagüel, Argentina",
+      "record_count": 1,
+      "site_mean_IQR": 0.251548825724,
+      "record_ids": "temperature::Bajada del Jagüel ",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1210",
+      "record_count": 1,
+      "site_mean_IQR": 1.6058140834,
+      "record_ids": "d18O::ODP1210B",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.31950832890442005,
+      "record_ids": "d13C::ODP1209 6; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Ca; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.2,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 577",
+      "record_count": 1,
+      "site_mean_IQR": 0.126516651724,
+      "record_ids": "weathering::ODP577 Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "West Texas",
+      "record_count": 1,
+      "site_mean_IQR": 1.10420055251,
+      "record_ids": "temperature::West Texas",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.779358007649,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 2,
+      "site_mean_IQR": 0.6440745476159999,
+      "record_ids": "weathering::Seymour Island, Antarctica Ca; weathering::Seymour Island, Antarctica Sr",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 0.870821774338,
+      "record_ids": "temperature::ODP690; weathering::ODP690C Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.4880326259604001,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.123677732894,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.18597714237233332,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 1,
+      "site_mean_IQR": 1.76887965313,
+      "record_ids": "temperature::Haymana Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 3,
+      "site_mean_IQR": 0.5233764472626666,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2; weathering::ODP525A Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bottaccione Section, Italy",
+      "record_count": 1,
+      "site_mean_IQR": 0.04348815547,
+      "record_ids": "weathering::Bottaccione Section, Gubbio Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 4,
+      "site_mean_IQR": 0.74497426022875,
+      "record_ids": "temperature::Bass River; temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bajada del Jagüel, Argentina",
+      "record_count": 1,
+      "site_mean_IQR": 0.0346858453269,
+      "record_ids": "temperature::Bajada del Jagüel ",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 6,
+      "site_mean_IQR": 0.4664441961456333,
+      "record_ids": "d13C::ODP1209 5; d13C::ODP1209 6; d18O::ODP1209 5; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Ca",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1049",
+      "record_count": 1,
+      "site_mean_IQR": 1.99107859082,
+      "record_ids": "temperature::ODP1049",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 577",
+      "record_count": 1,
+      "site_mean_IQR": 0.0726299296932,
+      "record_ids": "weathering::ODP577 Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.15,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 465",
+      "record_count": 1,
+      "site_mean_IQR": 0.129020009385,
+      "record_ids": "d18O::DSDP465",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Williston Basin, North Dakota",
+      "record_count": 1,
+      "site_mean_IQR": 0.399517901841,
+      "record_ids": "temperature::Williston Basin",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.307917715923,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 2,
+      "site_mean_IQR": 0.4487386024805,
+      "record_ids": "weathering::Seymour Island, Antarctica Ca; weathering::Seymour Island, Antarctica Sr",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 0.4259271536495,
+      "record_ids": "temperature::ODP690; weathering::ODP690C Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.5476407380136666,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 6,
+      "site_mean_IQR": 0.43747141090513336,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; temperature::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.185516599341,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.09361399188606667,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 2,
+      "site_mean_IQR": 1.2632565631165,
+      "record_ids": "temperature::Haymana Basin; temperature::Haymana Basin 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 528",
+      "record_count": 1,
+      "site_mean_IQR": 0.662248467336,
+      "record_ids": "temperature::DSDP528",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 2,
+      "site_mean_IQR": 1.26696621451,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bottaccione Section, Italy",
+      "record_count": 1,
+      "site_mean_IQR": 0.186159823415,
+      "record_ids": "weathering::Bottaccione Section, Gubbio Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 4,
+      "site_mean_IQR": 0.8151884059035,
+      "record_ids": "temperature::Bass River; temperature::Bass River 2; temperature::Bass River 3; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bajada del Jagüel, Argentina",
+      "record_count": 1,
+      "site_mean_IQR": 0.278146116372,
+      "record_ids": "temperature::Bajada del Jagüel ",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.1,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 9,
+      "site_mean_IQR": 0.46748755113312335,
+      "record_ids": "d13C::ODP1209 2; d13C::ODP1209 5; d13C::ODP1209 6; d18O::ODP1209 2; d18O::ODP1209 5; d18O::ODP1209 6; temperature::ODP1209; weathering::ODP1209C Ca; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 0.903076424152,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 2,
+      "site_mean_IQR": 0.8615220588345001,
+      "record_ids": "weathering::Seymour Island, Antarctica Ca; weathering::Seymour Island, Antarctica Sr",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 2,
+      "site_mean_IQR": 0.5636174433585001,
+      "record_ids": "temperature::ODP690; weathering::ODP690C Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.5028934690783333,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 6,
+      "site_mean_IQR": 0.4646390316921667,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; temperature::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 1.42229392828,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 3,
+      "site_mean_IQR": 0.23476322049566667,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403; weathering::IODP U1403 Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Haymana Basin, Turkey",
+      "record_count": 2,
+      "site_mean_IQR": 0.379650419272,
+      "record_ids": "temperature::Haymana Basin; temperature::Haymana Basin 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 528",
+      "record_count": 1,
+      "site_mean_IQR": 0.431978241122,
+      "record_ids": "temperature::DSDP528",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "DSDP 525",
+      "record_count": 3,
+      "site_mean_IQR": 0.40825886029266667,
+      "record_ids": "temperature::DSDP525; temperature::DSDP525 2; weathering::ODP525A Os",
+      "categories": "temperature; weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Brazos River, Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.857680820863,
+      "record_ids": "temperature::Brazos River",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bottaccione Section, Italy",
+      "record_count": 1,
+      "site_mean_IQR": 0.741587493278,
+      "record_ids": "weathering::Bottaccione Section, Gubbio Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bass River, New Jersey",
+      "record_count": 2,
+      "site_mean_IQR": 1.0228746068449999,
+      "record_ids": "temperature::Bass River 2; temperature::Bass River 4",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bajada del Jagüel, Argentina",
+      "record_count": 1,
+      "site_mean_IQR": 2.6473624035,
+      "record_ids": "temperature::Bajada del Jagüel ",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1210",
+      "record_count": 1,
+      "site_mean_IQR": 0.280101723223,
+      "record_ids": "d18O::ODP1210",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.6878816003707999,
+      "record_ids": "d13C::ODP1209 2; d18O::ODP1209 2; temperature::ODP1209; weathering::ODP1209C Ca2; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1049",
+      "record_count": 1,
+      "site_mean_IQR": 1.05259119324,
+      "record_ids": "temperature::ODP1049",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "low",
+      "canonical_site": "El Kef, Tunisia",
+      "record_count": 1,
+      "site_mean_IQR": 1.00384201831,
+      "record_ids": "temperature::EI Kef",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 577",
+      "record_count": 1,
+      "site_mean_IQR": 0.145259859386,
+      "record_ids": "weathering::ODP577 Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 66.05,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 465",
+      "record_count": 1,
+      "site_mean_IQR": 0.670904048801,
+      "record_ids": "d18O::DSDP465",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "Stevns-1 Core, Denmark",
+      "record_count": 1,
+      "site_mean_IQR": 1.24138732361,
+      "record_ids": "d18O::Stevns-1 Core",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.641873494336,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 1.043591352469,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 6,
+      "site_mean_IQR": 0.547667136513,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; temperature::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "Meirs Farm, New Jersey",
+      "record_count": 1,
+      "site_mean_IQR": 0.185516599341,
+      "record_ids": "temperature::Meirs Farm",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.9559954079955,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "Brazos River, Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.0595128197958,
+      "record_ids": "temperature::Brazos River",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 7,
+      "site_mean_IQR": 0.5398221361942858,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1049",
+      "record_count": 1,
+      "site_mean_IQR": 1.23757507093,
+      "record_ids": "temperature::ODP1049",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "low",
+      "canonical_site": "Nanxiong Basin, China",
+      "record_count": 2,
+      "site_mean_IQR": 0.205952094828,
+      "record_ids": "d13C::Nanxiong Basin; d18O::Nanxiong Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "low",
+      "canonical_site": "El Kef, Tunisia",
+      "record_count": 1,
+      "site_mean_IQR": 0.430218007847,
+      "record_ids": "temperature::EI Kef",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 577",
+      "record_count": 1,
+      "site_mean_IQR": 0.0979356645464,
+      "record_ids": "temperature::DSDP577",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 66.0,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 465",
+      "record_count": 1,
+      "site_mean_IQR": 0.464472033785,
+      "record_ids": "d18O::DSDP465",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.7740246722515001,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 2,
+      "site_mean_IQR": 0.3327828376255,
+      "record_ids": "weathering::Seymour Island, Antarctica Ca; weathering::Seymour Island, Antarctica Sr",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.442400106887,
+      "record_ids": "weathering::ODP690C Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.7380067472746666,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.4964732565084001,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.1326866712915,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "Brazos River, Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.326044481073,
+      "record_ids": "temperature::Brazos River",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1210",
+      "record_count": 1,
+      "site_mean_IQR": 0.883108220567,
+      "record_ids": "d18O::ODP1210",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 2,
+      "site_mean_IQR": 0.250898425702,
+      "record_ids": "d13C::ODP1209 2; d18O::ODP1209 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1049",
+      "record_count": 1,
+      "site_mean_IQR": 0.134783459735,
+      "record_ids": "temperature::ODP1049",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "low",
+      "canonical_site": "El Kef, Tunisia",
+      "record_count": 1,
+      "site_mean_IQR": 0.573624010462,
+      "record_ids": "temperature::EI Kef",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.95,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 465",
+      "record_count": 1,
+      "site_mean_IQR": 0.541884039416,
+      "record_ids": "d18O::DSDP465",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 3,
+      "site_mean_IQR": 0.4399639516086,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin; temperature::Songliao Basin",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.0529715917457,
+      "record_ids": "weathering::ODP690C Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.20890220206666665,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.28273293185294,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.17294628842249998,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "Brazos River, Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.095186551783,
+      "record_ids": "temperature::Brazos River",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1210",
+      "record_count": 1,
+      "site_mean_IQR": 0.0593629858179,
+      "record_ids": "d18O::ODP1210",
+      "categories": "d18O"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 12,
+      "site_mean_IQR": 0.30591390187817497,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d13C::ODP1209 5; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; d18O::ODP1209 5; temperature::ODP1209; weathering::ODP1209C Ca; weathering::ODP1209C Ca2; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1049",
+      "record_count": 1,
+      "site_mean_IQR": 0.430519251267,
+      "record_ids": "temperature::ODP1049",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.9,
+      "latitude_group": "low",
+      "canonical_site": "El Kef, Tunisia",
+      "record_count": 1,
+      "site_mean_IQR": 0.717030013078,
+      "record_ids": "temperature::EI Kef",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "Seymour Island, Antarctica",
+      "record_count": 2,
+      "site_mean_IQR": 0.50812409512,
+      "record_ids": "weathering::Seymour Island, Antarctica Ca; weathering::Seymour Island, Antarctica Sr",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.29675727234099997,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.3922942911156,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.1702470242545,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "Brazos River, Texas",
+      "record_count": 1,
+      "site_mean_IQR": 0.624185901114,
+      "record_ids": "temperature::Brazos River",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 7,
+      "site_mean_IQR": 0.3878442479901429,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1049",
+      "record_count": 1,
+      "site_mean_IQR": 0.591387694835,
+      "record_ids": "temperature::ODP1049",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.85,
+      "latitude_group": "low",
+      "canonical_site": "El Kef, Tunisia",
+      "record_count": 1,
+      "site_mean_IQR": 0.932139017001,
+      "record_ids": "temperature::EI Kef",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 3,
+      "site_mean_IQR": 0.8948741488463333,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin; temperature::Songliao Basin",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.6426445874830001,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.35251422116091996,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.1521389107355,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.8,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 8,
+      "site_mean_IQR": 0.384933523700425,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d13C::ODP1209 4; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; d18O::ODP1209 4",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.8,
+      "latitude_group": "low",
+      "canonical_site": "El Kef, Tunisia",
+      "record_count": 1,
+      "site_mean_IQR": 0.501921009154,
+      "record_ids": "temperature::EI Kef",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.806798529524,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.23143697878,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.25530692932585997,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.21143816822,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.75,
+      "latitude_group": "mid_high",
+      "canonical_site": "Bajada del Jagüel, Argentina",
+      "record_count": 1,
+      "site_mean_IQR": 0.339969901732,
+      "record_ids": "temperature::Bajada del Jagüel ",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.75,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 12,
+      "site_mean_IQR": 0.24043635054865833,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d13C::ODP1209 4; d13C::ODP1209 5; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; d18O::ODP1209 4; d18O::ODP1209 5; temperature::ODP1209; weathering::ODP1209C Ca",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 65.7,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 0.6258851522955,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.7,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.351891463409,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.7,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 5,
+      "site_mean_IQR": 0.37075999811586,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2; weathering::ODP1262B Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.7,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.0946915841687,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.7,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 9,
+      "site_mean_IQR": 0.22269342086255556,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d13C::ODP1209 4; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; d18O::ODP1209 4; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.7,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1049",
+      "record_count": 1,
+      "site_mean_IQR": 0.888637121793,
+      "record_ids": "temperature::ODP1049",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.65,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.16490805315011334,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.65,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.5987937064297499,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.65,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.232939009804,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.65,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 0.3065768267576667,
+      "record_ids": "d13C::ODP1209 2; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.65,
+      "latitude_group": "low",
+      "canonical_site": "Nanxiong Basin, China",
+      "record_count": 2,
+      "site_mean_IQR": 0.2777300680555,
+      "record_ids": "d13C::Nanxiong Basin; d18O::Nanxiong Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.3164839991065,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.3618246626415,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.6,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.12962739267205,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.6,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 7,
+      "site_mean_IQR": 0.38941187763871427,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 2,
+      "site_mean_IQR": 1.1129077751,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.2569189424775,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.294790717811525,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.55,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.33267391068950003,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.55,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 7,
+      "site_mean_IQR": 0.2158085186825143,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 4; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 4; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "Songliao Basin, eastern China",
+      "record_count": 3,
+      "site_mean_IQR": 0.303275274285,
+      "record_ids": "d13C::Songliao Basin; d18O::Songliao Basin; temperature::Songliao Basin",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.0261435980175,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.22062892340685,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.221598425498375,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.5,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.17193855247625,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.5,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 14,
+      "site_mean_IQR": 0.39347590953380723,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d13C::ODP1209 4; d13C::ODP1209 5; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; d18O::ODP1209 4; d18O::ODP1209 5; temperature::ODP1209; weathering::ODP1209C Ca; weathering::ODP1209C Ca2; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 65.5,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 384",
+      "record_count": 1,
+      "site_mean_IQR": 0.114564238829,
+      "record_ids": "temperature::DSDP384",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.952345612415,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.31786360648062667,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.29202141484475,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.45,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.31042381433300004,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.45,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 12,
+      "site_mean_IQR": 0.32059677583539165,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d13C::ODP1209 4; d13C::ODP1209 5; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; d18O::ODP1209 4; d18O::ODP1209 5; temperature::ODP1209; weathering::ODP1209C Ca",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 65.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.928197471903,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.344589880585,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.2982974023405,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.4,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.257060082283,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.4,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 9,
+      "site_mean_IQR": 0.1974284207835889,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 3; d13C::ODP1209 4; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 3; d18O::ODP1209 4; weathering::ODP1209C Os",
+      "categories": "d13C; d18O; weathering"
+    },
+    {
+      "age_Ma": 65.4,
+      "latitude_group": "low",
+      "canonical_site": "Nanxiong Basin, China",
+      "record_count": 2,
+      "site_mean_IQR": 0.06588312086336,
+      "record_ids": "d13C::Nanxiong Basin; d18O::Nanxiong Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.395380934455,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.7584490506225,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.6380599662015001,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.35,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.24636674916440002,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.35,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 0.358593747941,
+      "record_ids": "d13C::ODP1209 2; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.6473062039495,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.22354437954535,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.3,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.2776475305746,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.3,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 7,
+      "site_mean_IQR": 0.4192238652092857,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 4; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 4; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.209862254897,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.730890740283,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.21525732835599998,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.25,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.30889977752794995,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.25,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.6175566892622,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d18O::ODP1209; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.102450551069,
+      "record_ids": "weathering::ODP690C Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.27329752163233334,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.30746507792375,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.2,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.36818913347750004,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.2,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.23853150924180003,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d18O::ODP1209; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.2,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 384",
+      "record_count": 1,
+      "site_mean_IQR": 0.169722670324,
+      "record_ids": "temperature::DSDP384",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.0683973849464,
+      "record_ids": "weathering::ODP690C Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.2668353475357,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.29729474060300004,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.15,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.19568044732349998,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.15,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.59899883831058,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d18O::ODP1209; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.0564642241685,
+      "record_ids": "weathering::ODP690C Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.41265820451699997,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.49590180680374996,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.1,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.415221325992,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.1,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 11,
+      "site_mean_IQR": 0.6788344272335273,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d13C::ODP1209 4; d13C::ODP1209 5; d18O::ODP1209; d18O::ODP1209 2; d18O::ODP1209 4; d18O::ODP1209 5; temperature::ODP1209; weathering::ODP1209C Ca; weathering::ODP1209C Ca2",
+      "categories": "d13C; d18O; temperature; weathering"
+    },
+    {
+      "age_Ma": 65.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.0133884242874,
+      "record_ids": "weathering::ODP690C Os",
+      "categories": "weathering"
+    },
+    {
+      "age_Ma": 65.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.3368660443992,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.27825906310225,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.05,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.4695237362075,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.05,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.32691332468879997,
+      "record_ids": "d13C::ODP1209 2; d13C::ODP1209 4; d18O::ODP1209 2; d18O::ODP1209 4; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 65.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.260382385223,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 65.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.30360074423815003,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 4,
+      "site_mean_IQR": 0.25607315629425,
+      "record_ids": "d13C::ODP1262; d13C::ODP1262 2; d18O::ODP1262; d18O::ODP1262 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.0,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 1.0872153650529999,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 65.0,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.32954851811406,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d18O::ODP1209; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 64.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.326089645655,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 64.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.4168944124375,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 2,
+      "site_mean_IQR": 0.5098311372705,
+      "record_ids": "d13C::ODP1262; d18O::ODP1262",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.95,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.6058025744435,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.95,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 0.22224277934906667,
+      "record_ids": "d13C::ODP1209 2; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 64.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.0829067639829,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 64.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.21246587856715,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 2,
+      "site_mean_IQR": 0.37339809096599996,
+      "record_ids": "d13C::ODP1262; d18O::ODP1262",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.9,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.665661104709,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.9,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 3,
+      "site_mean_IQR": 0.3546900085459999,
+      "record_ids": "d13C::ODP1209 2; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 64.9,
+      "latitude_group": "low",
+      "canonical_site": "Nanxiong Basin, China",
+      "record_count": 2,
+      "site_mean_IQR": 0.3342466200595,
+      "record_ids": "d13C::Nanxiong Basin; d18O::Nanxiong Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.9,
+      "latitude_group": "low",
+      "canonical_site": "DSDP 384",
+      "record_count": 1,
+      "site_mean_IQR": 0.38059253498,
+      "record_ids": "temperature::DSDP384",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 64.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 2,
+      "site_mean_IQR": 0.24647858830135,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 2,
+      "site_mean_IQR": 0.18184757372549998,
+      "record_ids": "d13C::ODP1262; d18O::ODP1262",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.85,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.421552914341,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.85,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.4709151382788,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d18O::ODP1209; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 64.85,
+      "latitude_group": "low",
+      "canonical_site": "Nanxiong Basin, China",
+      "record_count": 2,
+      "site_mean_IQR": 0.323098830823,
+      "record_ids": "d13C::Nanxiong Basin; d18O::Nanxiong Basin",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 690",
+      "record_count": 1,
+      "site_mean_IQR": 0.210650488112,
+      "record_ids": "temperature::ODP690 2",
+      "categories": "temperature"
+    },
+    {
+      "age_Ma": 64.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1267",
+      "record_count": 3,
+      "site_mean_IQR": 0.32982758455299993,
+      "record_ids": "d13C::ODP1267; d18O::ODP1267; d18O::ODP1267 2",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "ODP 1262",
+      "record_count": 2,
+      "site_mean_IQR": 0.2981733133115,
+      "record_ids": "d13C::ODP1262; d18O::ODP1262",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.8,
+      "latitude_group": "mid_high",
+      "canonical_site": "IODP U1403",
+      "record_count": 2,
+      "site_mean_IQR": 0.369482827509,
+      "record_ids": "d13C::IODP U1403; d18O::IODP U1403",
+      "categories": "d13C; d18O"
+    },
+    {
+      "age_Ma": 64.8,
+      "latitude_group": "low",
+      "canonical_site": "ODP 1209",
+      "record_count": 5,
+      "site_mean_IQR": 0.3736343726282,
+      "record_ids": "d13C::ODP1209; d13C::ODP1209 2; d18O::ODP1209; d18O::ODP1209 2; temperature::ODP1209",
+      "categories": "d13C; d18O; temperature"
+    },
+    {
+      "age_Ma": 64.8,
+      "latitude_group": "low",
+      "canonical_site": "Nanxiong Basin, China",
+      "record_count": 2,
+      "site_mean_IQR": 0.53908429878475,
+      "record_ids": "d13C::Nanxiong Basin; d18O::Nanxiong Basin",
+      "categories": "d13C; d18O"
+    }
+  ]
+}

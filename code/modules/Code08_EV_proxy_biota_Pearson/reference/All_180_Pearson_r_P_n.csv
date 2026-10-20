@@ -1,0 +1,181 @@
+﻿Taxon,Biological_variable,Stage,Environmental_metric,Resolution_kyr,Pearson_r,Nominal_P,n,Actual_age_range_Ma
+Elasmobranchs,Extinction,Pre_boundary,Global EV,50,0.714810752876139,8.67922784257866e-05,24,67.16110697-66.01089945
+Elasmobranchs,Extinction,Pre_boundary,Temperature variability,50,0.12270610168727,0.676017418078413,14,66.86105283-66.01089945
+Elasmobranchs,Extinction,Pre_boundary,d18O variability,50,0.595908161709617,0.00212078606563584,24,67.16110697-66.01089945
+Elasmobranchs,Extinction,Pre_boundary,d13C variability,50,0.582975807495691,0.00279203440646612,24,67.16110697-66.01089945
+Elasmobranchs,Extinction,Pre_boundary,Weathering variability,50,0.528830202712433,0.0426769535948138,15,67.06108892-66.01089945
+Elasmobranchs,Extinction,Boundary_early_recovery,Global EV,50,0.677538501169102,0.0313450113079828,10,65.96089043-65.51080923
+Elasmobranchs,Extinction,Boundary_early_recovery,Temperature variability,50,0.487055157590712,0.153369567651296,10,65.96089043-65.51080923
+Elasmobranchs,Extinction,Boundary_early_recovery,d18O variability,50,0.367415866182648,0.296270288226354,10,65.96089043-65.51080923
+Elasmobranchs,Extinction,Boundary_early_recovery,d13C variability,50,0.727306599762255,0.0171402293780341,10,65.96089043-65.51080923
+Elasmobranchs,Extinction,Boundary_early_recovery,Weathering variability,50,0.709070758900751,0.114647635206288,6,65.96089043-65.71084531
+Elasmobranchs,Extinction,Post_recovery_background,Global EV,50,-0.215991223630887,0.458305385360414,14,65.46080020-64.81068291
+Elasmobranchs,Extinction,Post_recovery_background,Temperature variability,50,0.241913726043376,0.404703527521465,14,65.46080020-64.81068291
+Elasmobranchs,Extinction,Post_recovery_background,d18O variability,50,-0.235016714270256,0.418635650504971,14,65.46080020-64.81068291
+Elasmobranchs,Extinction,Post_recovery_background,d13C variability,50,-0.185325877466676,0.525879850077428,14,65.46080020-64.81068291
+Elasmobranchs,Extinction,Post_recovery_background,Weathering variability,50,-0.0856972110857706,0.891020624108877,5,65.46080020-65.06072802
+Elasmobranchs,Extinction,Full_transition,Global EV,50,0.613941918075229,3.47230670457032e-06,48,67.16110697-64.81068291
+Elasmobranchs,Extinction,Full_transition,Temperature variability,50,0.514389754350847,0.000953654148590444,38,66.86105283-64.81068291
+Elasmobranchs,Extinction,Full_transition,d18O variability,50,0.309449282262698,0.0323341494313473,48,67.16110697-64.81068291
+Elasmobranchs,Extinction,Full_transition,d13C variability,50,0.524584916363368,0.000129494240227499,48,67.16110697-64.81068291
+Elasmobranchs,Extinction,Full_transition,Weathering variability,50,0.503137045332125,0.00879282096671692,26,67.06108892-65.06072802
+Elasmobranchs,Speciation,Pre_boundary,Global EV,50,0.680123708861321,0.000255670495586369,24,67.16110697-66.01089945
+Elasmobranchs,Speciation,Pre_boundary,Temperature variability,50,0.309236642078916,0.282002259840683,14,66.86105283-66.01089945
+Elasmobranchs,Speciation,Pre_boundary,d18O variability,50,0.367997244413485,0.076850969476961,24,67.16110697-66.01089945
+Elasmobranchs,Speciation,Pre_boundary,d13C variability,50,0.486489891108155,0.0159256703895489,24,67.16110697-66.01089945
+Elasmobranchs,Speciation,Pre_boundary,Weathering variability,50,0.604280934703899,0.0170350150097272,15,67.06108892-66.01089945
+Elasmobranchs,Speciation,Boundary_early_recovery,Global EV,50,-0.483088437056787,0.157249843224399,10,65.96089043-65.51080923
+Elasmobranchs,Speciation,Boundary_early_recovery,Temperature variability,50,0.11202603452834,0.757995384695209,10,65.96089043-65.51080923
+Elasmobranchs,Speciation,Boundary_early_recovery,d18O variability,50,-0.329447387537229,0.352589733083868,10,65.96089043-65.51080923
+Elasmobranchs,Speciation,Boundary_early_recovery,d13C variability,50,-0.778172352668407,0.00802598648375466,10,65.96089043-65.51080923
+Elasmobranchs,Speciation,Boundary_early_recovery,Weathering variability,50,-0.931043604406082,0.00696853344407565,6,65.96089043-65.71084531
+Elasmobranchs,Speciation,Post_recovery_background,Global EV,50,-0.299794413473557,0.297714857606881,14,65.46080020-64.81068291
+Elasmobranchs,Speciation,Post_recovery_background,Temperature variability,50,0.702594341124327,0.00507569584926177,14,65.46080020-64.81068291
+Elasmobranchs,Speciation,Post_recovery_background,d18O variability,50,-0.462548007185067,0.0958382384445425,14,65.46080020-64.81068291
+Elasmobranchs,Speciation,Post_recovery_background,d13C variability,50,-0.125467036783389,0.669101450267913,14,65.46080020-64.81068291
+Elasmobranchs,Speciation,Post_recovery_background,Weathering variability,50,-0.150370841513765,0.809265887685922,5,65.46080020-65.06072802
+Elasmobranchs,Speciation,Full_transition,Global EV,50,0.0389268816370957,0.792794277475901,48,67.16110697-64.81068291
+Elasmobranchs,Speciation,Full_transition,Temperature variability,50,0.0587950994250971,0.725863215235283,38,66.86105283-64.81068291
+Elasmobranchs,Speciation,Full_transition,d18O variability,50,-0.195744777151546,0.182416284177601,48,67.16110697-64.81068291
+Elasmobranchs,Speciation,Full_transition,d13C variability,50,0.225481456625251,0.12333570303838,48,67.16110697-64.81068291
+Elasmobranchs,Speciation,Full_transition,Weathering variability,50,-0.00654675841733074,0.97467898237366,26,67.06108892-65.06072802
+Elasmobranchs,Net diversification,Pre_boundary,Global EV,50,-0.718842326603467,7.57844854582988e-05,24,67.16110697-66.01089945
+Elasmobranchs,Net diversification,Pre_boundary,Temperature variability,50,-0.187108488461329,0.521834901016455,14,66.86105283-66.01089945
+Elasmobranchs,Net diversification,Pre_boundary,d18O variability,50,-0.61691629152271,0.00132283214384523,24,67.16110697-66.01089945
+Elasmobranchs,Net diversification,Pre_boundary,d13C variability,50,-0.591000187960368,0.00235723056960472,24,67.16110697-66.01089945
+Elasmobranchs,Net diversification,Pre_boundary,Weathering variability,50,-0.480261095135618,0.0699969317000506,15,67.06108892-66.01089945
+Elasmobranchs,Net diversification,Boundary_early_recovery,Global EV,50,-0.668832472817575,0.0344591592855399,10,65.96089043-65.51080923
+Elasmobranchs,Net diversification,Boundary_early_recovery,Temperature variability,50,-0.429044352251696,0.21598493341603,10,65.96089043-65.51080923
+Elasmobranchs,Net diversification,Boundary_early_recovery,d18O variability,50,-0.390041527832339,0.265166860495264,10,65.96089043-65.51080923
+Elasmobranchs,Net diversification,Boundary_early_recovery,d13C variability,50,-0.738584851969008,0.0146942541816503,10,65.96089043-65.51080923
+Elasmobranchs,Net diversification,Boundary_early_recovery,Weathering variability,50,-0.863813179577524,0.0265573568161326,6,65.96089043-65.71084531
+Elasmobranchs,Net diversification,Post_recovery_background,Global EV,50,-0.327290220709497,0.253350975668483,14,65.46080020-64.81068291
+Elasmobranchs,Net diversification,Post_recovery_background,Temperature variability,50,0.755430073836516,0.00178130767282609,14,65.46080020-64.81068291
+Elasmobranchs,Net diversification,Post_recovery_background,d18O variability,50,-0.551930679952559,0.0407246579265471,14,65.46080020-64.81068291
+Elasmobranchs,Net diversification,Post_recovery_background,d13C variability,50,-0.0373224221959476,0.899201203767855,14,65.46080020-64.81068291
+Elasmobranchs,Net diversification,Post_recovery_background,Weathering variability,50,-0.210676190212339,0.733756458707972,5,65.46080020-65.06072802
+Elasmobranchs,Net diversification,Full_transition,Global EV,50,-0.616425823723104,3.08970813869142e-06,48,67.16110697-64.81068291
+Elasmobranchs,Net diversification,Full_transition,Temperature variability,50,-0.488698079995131,0.00185095912918864,38,66.86105283-64.81068291
+Elasmobranchs,Net diversification,Full_transition,d18O variability,50,-0.366032570170716,0.0105102529840226,48,67.16110697-64.81068291
+Elasmobranchs,Net diversification,Full_transition,d13C variability,50,-0.428704131442929,0.00236471655308314,48,67.16110697-64.81068291
+Elasmobranchs,Net diversification,Full_transition,Weathering variability,50,-0.547634084451956,0.00378166899041695,26,67.06108892-65.06072802
+Bivalves,Extinction,Pre_boundary,Global EV,100,0.736646594488688,0.00628318035271229,12,67.19579221-66.09431495
+Bivalves,Extinction,Pre_boundary,Temperature variability,100,0.573832806107181,0.0828169517979673,10,67.19579221-66.09431495
+Bivalves,Extinction,Pre_boundary,d18O variability,100,0.73749681513287,0.00619213580924307,12,67.19579221-66.09431495
+Bivalves,Extinction,Pre_boundary,d13C variability,100,0.386765871120251,0.214241465835396,12,67.19579221-66.09431495
+Bivalves,Extinction,Pre_boundary,Weathering variability,100,0.681323871629959,0.0300528583609448,10,67.19579221-66.09431495
+Bivalves,Extinction,Boundary_early_recovery,Global EV,100,0.537609534992951,0.350069387892002,5,65.99418066-65.59364347
+Bivalves,Extinction,Boundary_early_recovery,Temperature variability,100,0.761101666737951,0.135034120433585,5,65.99418066-65.59364347
+Bivalves,Extinction,Boundary_early_recovery,d18O variability,100,0.43811471807639,0.46057297015277,5,65.99418066-65.59364347
+Bivalves,Extinction,Boundary_early_recovery,d13C variability,100,0.48261210874076,0.410284535233521,5,65.99418066-65.59364347
+Bivalves,Extinction,Boundary_early_recovery,Weathering variability,100,-0.200793968240039,0.746069672940598,5,65.99418066-65.59364347
+Bivalves,Extinction,Post_recovery_background,Global EV,100,-0.0330028865409494,0.944003066980266,7,65.49350918-64.89270340
+Bivalves,Extinction,Post_recovery_background,Temperature variability,100,0.741325132087958,0.0565382235344734,7,65.49350918-64.89270340
+Bivalves,Extinction,Post_recovery_background,d18O variability,100,-0.486104832645929,0.268703176177374,7,65.49350918-64.89270340
+Bivalves,Extinction,Post_recovery_background,d13C variability,100,-0.266555815258234,0.563384174328018,7,65.49350918-64.89270340
+Bivalves,Extinction,Post_recovery_background,Weathering variability,100,0.75076147559305,0.24923852440695,4,65.49350918-65.19310629
+Bivalves,Extinction,Full_transition,Global EV,100,0.58962666581424,0.00242728041877179,24,67.19579221-64.89270340
+Bivalves,Extinction,Full_transition,Temperature variability,100,0.255926101866,0.250307330939145,22,67.19579221-64.89270340
+Bivalves,Extinction,Full_transition,d18O variability,100,0.37426468388209,0.0715819415724981,24,67.19579221-64.89270340
+Bivalves,Extinction,Full_transition,d13C variability,100,0.592745482519657,0.00227070585446583,24,67.19579221-64.89270340
+Bivalves,Extinction,Full_transition,Weathering variability,100,0.518586382625422,0.0229135915746581,19,67.19579221-65.19310629
+Bivalves,Speciation,Pre_boundary,Global EV,100,0.437227411769746,0.155219260211049,12,67.19579221-66.09431495
+Bivalves,Speciation,Pre_boundary,Temperature variability,100,0.299727708365725,0.40014044509001,10,67.19579221-66.09431495
+Bivalves,Speciation,Pre_boundary,d18O variability,100,0.472336615029637,0.121011796939699,12,67.19579221-66.09431495
+Bivalves,Speciation,Pre_boundary,d13C variability,100,0.314617499170673,0.319248766636507,12,67.19579221-66.09431495
+Bivalves,Speciation,Pre_boundary,Weathering variability,100,0.471197618609485,0.169233234153405,10,67.19579221-66.09431495
+Bivalves,Speciation,Boundary_early_recovery,Global EV,100,-0.929813081464519,0.0220847380384313,5,65.99418066-65.59364347
+Bivalves,Speciation,Boundary_early_recovery,Temperature variability,100,-0.0517997078125981,0.93407606997335,5,65.99418066-65.59364347
+Bivalves,Speciation,Boundary_early_recovery,d18O variability,100,-0.941898387627616,0.0166645859472336,5,65.99418066-65.59364347
+Bivalves,Speciation,Boundary_early_recovery,d13C variability,100,-0.961419623951829,0.00904386729415248,5,65.99418066-65.59364347
+Bivalves,Speciation,Boundary_early_recovery,Weathering variability,100,-0.688857479380755,0.198328696540971,5,65.99418066-65.59364347
+Bivalves,Speciation,Post_recovery_background,Global EV,100,0.170981001312169,0.713957862219546,7,65.49350918-64.89270340
+Bivalves,Speciation,Post_recovery_background,Temperature variability,100,0.503448052422198,0.249381102836596,7,65.49350918-64.89270340
+Bivalves,Speciation,Post_recovery_background,d18O variability,100,-0.299100843163725,0.514635373121552,7,65.49350918-64.89270340
+Bivalves,Speciation,Post_recovery_background,d13C variability,100,-0.185980546942746,0.689701531337599,7,65.49350918-64.89270340
+Bivalves,Speciation,Post_recovery_background,Weathering variability,100,0.940639275745084,0.0593607242549165,4,65.49350918-65.19310629
+Bivalves,Speciation,Full_transition,Global EV,100,0.192046732564055,0.36864357871734,24,67.19579221-64.89270340
+Bivalves,Speciation,Full_transition,Temperature variability,100,0.0706448462658405,0.754734726302496,22,67.19579221-64.89270340
+Bivalves,Speciation,Full_transition,d18O variability,100,0.0630322945197514,0.769827694508561,24,67.19579221-64.89270340
+Bivalves,Speciation,Full_transition,d13C variability,100,0.319378225177631,0.128193356529769,24,67.19579221-64.89270340
+Bivalves,Speciation,Full_transition,Weathering variability,100,0.331071646786976,0.166189048165109,19,67.19579221-65.19310629
+Bivalves,Net diversification,Pre_boundary,Global EV,100,-0.859116046259692,0.000343367579984562,12,67.19579221-66.09431495
+Bivalves,Net diversification,Pre_boundary,Temperature variability,100,-0.731490277021674,0.0162022425832455,10,67.19579221-66.09431495
+Bivalves,Net diversification,Pre_boundary,d18O variability,100,-0.836240735502967,0.000699700541305385,12,67.19579221-66.09431495
+Bivalves,Net diversification,Pre_boundary,d13C variability,100,-0.522653988989522,0.0812638855169184,12,67.19579221-66.09431495
+Bivalves,Net diversification,Pre_boundary,Weathering variability,100,-0.551642041936341,0.0983076883738511,10,67.19579221-66.09431495
+Bivalves,Net diversification,Boundary_early_recovery,Global EV,100,-0.703792835366355,0.1846806830501,5,65.99418066-65.59364347
+Bivalves,Net diversification,Boundary_early_recovery,Temperature variability,100,-0.545331052487389,0.341804024789641,5,65.99418066-65.59364347
+Bivalves,Net diversification,Boundary_early_recovery,d18O variability,100,-0.635476737790802,0.249240598079681,5,65.99418066-65.59364347
+Bivalves,Net diversification,Boundary_early_recovery,d13C variability,100,-0.674228658496432,0.211958364812708,5,65.99418066-65.59364347
+Bivalves,Net diversification,Boundary_early_recovery,Weathering variability,100,-0.0580024801717915,0.926190378838737,5,65.99418066-65.59364347
+Bivalves,Net diversification,Post_recovery_background,Global EV,100,0.314350250154931,0.492313856924679,7,65.49350918-64.89270340
+Bivalves,Net diversification,Post_recovery_background,Temperature variability,100,0.0684096765403985,0.884135686443904,7,65.49350918-64.89270340
+Bivalves,Net diversification,Post_recovery_background,d18O variability,100,-0.134360620559147,0.773955636975053,7,65.49350918-64.89270340
+Bivalves,Net diversification,Post_recovery_background,d13C variability,100,0.179427836854949,0.700273371594148,7,65.49350918-64.89270340
+Bivalves,Net diversification,Post_recovery_background,Weathering variability,100,0.783530025698316,0.216469974301684,4,65.49350918-65.19310629
+Bivalves,Net diversification,Full_transition,Global EV,100,-0.701897704080518,0.000132045932664559,24,67.19579221-64.89270340
+Bivalves,Net diversification,Full_transition,Temperature variability,100,-0.317368280865418,0.15008943575616,22,67.19579221-64.89270340
+Bivalves,Net diversification,Full_transition,d18O variability,100,-0.460938677196487,0.0233945924926278,24,67.19579221-64.89270340
+Bivalves,Net diversification,Full_transition,d13C variability,100,-0.640724999243617,0.000743180344722122,24,67.19579221-64.89270340
+Bivalves,Net diversification,Full_transition,Weathering variability,100,-0.560080515762745,0.0126332455830175,19,67.19579221-65.19310629
+Calcareous nannofossils,Extinction,Pre_boundary,Global EV,100,0.510433398919444,0.0899550162529459,12,67.20000000-66.10000000
+Calcareous nannofossils,Extinction,Pre_boundary,Temperature variability,100,0.715080835326191,0.0133792044712621,11,67.20000000-66.10000000
+Calcareous nannofossils,Extinction,Pre_boundary,d18O variability,100,0.322459598213681,0.30666918456616,12,67.20000000-66.10000000
+Calcareous nannofossils,Extinction,Pre_boundary,d13C variability,100,0.627635658633777,0.0288916367721744,12,67.20000000-66.10000000
+Calcareous nannofossils,Extinction,Pre_boundary,Weathering variability,100,-0.225355104842174,0.505249885156395,11,67.20000000-66.10000000
+Calcareous nannofossils,Extinction,Boundary_early_recovery,Global EV,100,0.642454415530591,0.168904160188372,6,66.00000000-65.50000000
+Calcareous nannofossils,Extinction,Boundary_early_recovery,Temperature variability,100,0.106018898479422,0.84156747885263,6,66.00000000-65.50000000
+Calcareous nannofossils,Extinction,Boundary_early_recovery,d18O variability,100,0.460035504204824,0.358626013597176,6,66.00000000-65.50000000
+Calcareous nannofossils,Extinction,Boundary_early_recovery,d13C variability,100,0.78043431636191,0.0670211033078982,6,66.00000000-65.50000000
+Calcareous nannofossils,Extinction,Boundary_early_recovery,Weathering variability,100,0.225106819353933,0.668043198915401,6,66.00000000-65.50000000
+Calcareous nannofossils,Extinction,Post_recovery_background,Global EV,100,-0.588566719555624,0.164474363827626,7,65.40000000-64.80000000
+Calcareous nannofossils,Extinction,Post_recovery_background,Temperature variability,100,0.723281703926986,0.0662115102120875,7,65.40000000-64.80000000
+Calcareous nannofossils,Extinction,Post_recovery_background,d18O variability,100,-0.680579470971016,0.0924043637680579,7,65.40000000-64.80000000
+Calcareous nannofossils,Extinction,Post_recovery_background,d13C variability,100,-0.172097353031196,0.71214571690133,7,65.40000000-64.80000000
+Calcareous nannofossils,Extinction,Post_recovery_background,Weathering variability,100,-0.556857804452803,0.443142195547197,4,65.40000000-65.10000000
+Calcareous nannofossils,Extinction,Full_transition,Global EV,100,0.2699184484717,0.191935139010924,25,67.20000000-64.80000000
+Calcareous nannofossils,Extinction,Full_transition,Temperature variability,100,0.260628081113952,0.21867984681486,24,67.20000000-64.80000000
+Calcareous nannofossils,Extinction,Full_transition,d18O variability,100,0.00770825620061429,0.970829041321527,25,67.20000000-64.80000000
+Calcareous nannofossils,Extinction,Full_transition,d13C variability,100,0.21686552498977,0.297749600231742,25,67.20000000-64.80000000
+Calcareous nannofossils,Extinction,Full_transition,Weathering variability,100,0.213010778442914,0.353891433274484,21,67.20000000-65.10000000
+Calcareous nannofossils,Speciation,Pre_boundary,Global EV,100,0.84660615799582,0.000513929008959839,12,67.20000000-66.10000000
+Calcareous nannofossils,Speciation,Pre_boundary,Temperature variability,100,0.896004399777935,0.000189682440498563,11,67.20000000-66.10000000
+Calcareous nannofossils,Speciation,Pre_boundary,d18O variability,100,0.732937878001309,0.00669214444469654,12,67.20000000-66.10000000
+Calcareous nannofossils,Speciation,Pre_boundary,d13C variability,100,0.60745632249997,0.0361695675996594,12,67.20000000-66.10000000
+Calcareous nannofossils,Speciation,Pre_boundary,Weathering variability,100,0.268246027902108,0.425138505023389,11,67.20000000-66.10000000
+Calcareous nannofossils,Speciation,Boundary_early_recovery,Global EV,100,-0.719040497084872,0.107318138761719,6,66.00000000-65.50000000
+Calcareous nannofossils,Speciation,Boundary_early_recovery,Temperature variability,100,-0.0934365835594309,0.860252993808695,6,66.00000000-65.50000000
+Calcareous nannofossils,Speciation,Boundary_early_recovery,d18O variability,100,-0.558649370987349,0.24920013872645,6,66.00000000-65.50000000
+Calcareous nannofossils,Speciation,Boundary_early_recovery,d13C variability,100,-0.837441197908074,0.0374902084368204,6,66.00000000-65.50000000
+Calcareous nannofossils,Speciation,Boundary_early_recovery,Weathering variability,100,-0.303520316656142,0.558700366260568,6,66.00000000-65.50000000
+Calcareous nannofossils,Speciation,Post_recovery_background,Global EV,100,0.373068422140914,0.409797525427961,7,65.40000000-64.80000000
+Calcareous nannofossils,Speciation,Post_recovery_background,Temperature variability,100,-0.583565585654668,0.168990787838744,7,65.40000000-64.80000000
+Calcareous nannofossils,Speciation,Post_recovery_background,d18O variability,100,0.760054588110656,0.0473694664535312,7,65.40000000-64.80000000
+Calcareous nannofossils,Speciation,Post_recovery_background,d13C variability,100,-0.185079031951567,0.691153653914552,7,65.40000000-64.80000000
+Calcareous nannofossils,Speciation,Post_recovery_background,Weathering variability,100,0.387324980718142,0.612675019281858,4,65.40000000-65.10000000
+Calcareous nannofossils,Speciation,Full_transition,Global EV,100,0.21127747831328,0.310674598004463,25,67.20000000-64.80000000
+Calcareous nannofossils,Speciation,Full_transition,Temperature variability,100,0.265543553404251,0.20980248129834,24,67.20000000-64.80000000
+Calcareous nannofossils,Speciation,Full_transition,d18O variability,100,0.247998535213429,0.231972149040854,25,67.20000000-64.80000000
+Calcareous nannofossils,Speciation,Full_transition,d13C variability,100,0.121526717251894,0.562807333299095,25,67.20000000-64.80000000
+Calcareous nannofossils,Speciation,Full_transition,Weathering variability,100,0.0261899869199752,0.9102784361306,21,67.20000000-65.10000000
+Calcareous nannofossils,Net diversification,Pre_boundary,Global EV,100,0.597771122541518,0.0400908461223317,12,67.20000000-66.10000000
+Calcareous nannofossils,Net diversification,Pre_boundary,Temperature variability,100,0.342457703579339,0.302579758831757,11,67.20000000-66.10000000
+Calcareous nannofossils,Net diversification,Pre_boundary,d18O variability,100,0.694056372484879,0.0122795918029717,12,67.20000000-66.10000000
+Calcareous nannofossils,Net diversification,Pre_boundary,d13C variability,100,0.0425565235596935,0.895523537001946,12,67.20000000-66.10000000
+Calcareous nannofossils,Net diversification,Pre_boundary,Weathering variability,100,0.797869680507429,0.00325158846319988,11,67.20000000-66.10000000
+Calcareous nannofossils,Net diversification,Boundary_early_recovery,Global EV,100,-0.66062984458774,0.153215166434113,6,66.00000000-65.50000000
+Calcareous nannofossils,Net diversification,Boundary_early_recovery,Temperature variability,100,-0.103361053824119,0.845510548557984,6,66.00000000-65.50000000
+Calcareous nannofossils,Net diversification,Boundary_early_recovery,d18O variability,100,-0.482868951368691,0.331990020581992,6,66.00000000-65.50000000
+Calcareous nannofossils,Net diversification,Boundary_early_recovery,d13C variability,100,-0.794432027179254,0.0590438217987606,6,66.00000000-65.50000000
+Calcareous nannofossils,Net diversification,Boundary_early_recovery,Weathering variability,100,-0.243044742079092,0.642611304073625,6,66.00000000-65.50000000
+Calcareous nannofossils,Net diversification,Post_recovery_background,Global EV,100,0.590896617126903,0.162390961214214,7,65.40000000-64.80000000
+Calcareous nannofossils,Net diversification,Post_recovery_background,Temperature variability,100,-0.731792045172357,0.0615459965986337,7,65.40000000-64.80000000
+Calcareous nannofossils,Net diversification,Post_recovery_background,d18O variability,100,0.698109036662791,0.0810904377535368,7,65.40000000-64.80000000
+Calcareous nannofossils,Net diversification,Post_recovery_background,d13C variability,100,0.159500408716597,0.732654838525623,7,65.40000000-64.80000000
+Calcareous nannofossils,Net diversification,Post_recovery_background,Weathering variability,100,0.543970906731421,0.456029093268579,4,65.40000000-65.10000000
+Calcareous nannofossils,Net diversification,Full_transition,Global EV,100,-0.113021072784984,0.590644218399242,25,67.20000000-64.80000000
+Calcareous nannofossils,Net diversification,Full_transition,Temperature variability,100,-0.0922577023655411,0.668099865124779,24,67.20000000-64.80000000
+Calcareous nannofossils,Net diversification,Full_transition,d18O variability,100,0.0871569599735373,0.678680680491859,25,67.20000000-64.80000000
+Calcareous nannofossils,Net diversification,Full_transition,d13C variability,100,-0.108820316744362,0.604606439597989,25,67.20000000-64.80000000
+Calcareous nannofossils,Net diversification,Full_transition,Weathering variability,100,-0.129827249014669,0.574868573823116,21,67.20000000-65.10000000

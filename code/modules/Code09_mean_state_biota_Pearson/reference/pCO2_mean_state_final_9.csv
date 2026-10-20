@@ -1,0 +1,10 @@
+Taxon,Biological_variable,Mean_environmental_metric,n,Pearson_r,Nominal_P
+Elasmobranchs,Speciation,pCO2 mean state,14,-0.0531425810425303,0.85681620899676
+Elasmobranchs,Extinction,pCO2 mean state,14,0.224694479372587,0.439936021242652
+Elasmobranchs,Net diversification,pCO2 mean state,14,-0.250670942161301,0.387366825821536
+Bivalves,Speciation,pCO2 mean state,12,0.234076373805409,0.46401451666156
+Bivalves,Extinction,pCO2 mean state,12,0.202243787345829,0.528454214705775
+Bivalves,Net diversification,pCO2 mean state,12,-0.178004209731262,0.579929672242958
+Calcareous nannofossils,Speciation,pCO2 mean state,17,0.407380322547584,0.104579597889851
+Calcareous nannofossils,Extinction,pCO2 mean state,17,0.018770919213739,0.942995801848543
+Calcareous nannofossils,Net diversification,pCO2 mean state,17,0.148033533172713,0.570709884649914
