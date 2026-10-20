@@ -1,0 +1,19 @@
+{
+  "code": "Code04",
+  "code_directory": "02_code_revised",
+  "raw_data_directory": "01_data_revised",
+  "parameter_directory": "03_results/EV_uncertainty_inventory",
+  "reference_outputs_directory": "reference_outputs",
+  "verification_output_directory": "verification",
+  "formal_iterations": 10000,
+  "formal_scenarios": [
+    {
+      "name": "documented",
+      "source": "run_layer1A_documented_measurement_uncertainty_formal_50kyr_10000.py"
+    },
+    {
+      "name": "conservative",
+      "source": "run_layer2_conservative_measurement_sensitivity_formal_50kyr_10000.py"
+    }
+  ]
+}

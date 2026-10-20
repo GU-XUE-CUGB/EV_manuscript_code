@@ -1,0 +1,6 @@
+panel,observed_bin_count,operational_record_clusters,record_bin_IQR_rows,bootstrap_iterations,random_seed,spar
+global,49,66,911,5000,20260820,0.2
+temperature,42,25,185,5000,20260820,0.2
+d18O,49,17,332,5000,20260820,0.2
+d13C,49,12,283,5000,20260820,0.2
+weathering,32,11,100,5000,20260820,0.2

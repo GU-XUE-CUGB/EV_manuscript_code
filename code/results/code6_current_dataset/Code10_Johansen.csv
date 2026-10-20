@@ -1,0 +1,5 @@
+"Taxon","EV_resolution_kyr","n","Hypothesis","Trace_statistic","CV_1pct","CV_5pct","CV_10pct","rank_5pct","rank_10pct","type","ecdet","K","spec"
+"Elasmobranchs",50,48,"r = 0",18.8193500593989,23.52,17.95,15.66,1,1,"trace","none",2,"longrun"
+"Elasmobranchs",50,48,"r <= 1",2.47859481922906,11.65,8.18,6.5,1,1,"trace","none",2,"longrun"
+"Bivalves",100,24,"r = 0",21.6769972824286,23.52,17.95,15.66,1,1,"trace","none",2,"longrun"
+"Bivalves",100,24,"r <= 1",6.21138743448348,11.65,8.18,6.5,1,1,"trace","none",2,"longrun"

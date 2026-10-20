@@ -1,0 +1,76 @@
+category,sheet,record_id,sheet_order
+temperature,DSDP528,temperature::DSDP528,0
+temperature,ODP690,temperature::ODP690,1
+temperature,ODP690 2,temperature::ODP690 2,2
+temperature,ODP1209,temperature::ODP1209,3
+temperature,ODP1209 2,temperature::ODP1209 2,4
+temperature,ODP1209 3,temperature::ODP1209 3,5
+temperature,Haymana Basin,temperature::Haymana Basin,6
+temperature,Haymana Basin 2,temperature::Haymana Basin 2,7
+temperature,DSDP577,temperature::DSDP577,8
+temperature,ODP1049,temperature::ODP1049,9
+temperature,DSDP384,temperature::DSDP384,10
+temperature,DSDP525,temperature::DSDP525,11
+temperature,DSDP525 2,temperature::DSDP525 2,12
+temperature,ODP1262,temperature::ODP1262,13
+temperature,ODP1262 2,temperature::ODP1262 2,14
+temperature,Bass River,temperature::Bass River,15
+temperature,Bass River 2,temperature::Bass River 2,16
+temperature,Bass River 3,temperature::Bass River 3,17
+temperature,Bass River 4,temperature::Bass River 4,18
+temperature,DSDP465,temperature::DSDP465,19
+temperature,ODP1210,temperature::ODP1210,20
+temperature,Meirs Farm,temperature::Meirs Farm,21
+temperature,Brazos River,temperature::Brazos River,22
+temperature,Bajada del Jagüel ,temperature::Bajada del Jagüel ,23
+temperature,West Texas,temperature::West Texas,24
+temperature,Williston Basin,temperature::Williston Basin,25
+temperature,Garfield County ,temperature::Garfield County ,26
+temperature,Seymour Island,temperature::Seymour Island,27
+temperature,Seymour Island 2,temperature::Seymour Island 2,28
+temperature,Seymour Island 3,temperature::Seymour Island 3,29
+temperature,EI Kef,temperature::EI Kef,30
+temperature,Songliao Basin,temperature::Songliao Basin,31
+d13C,ODP1267,d13C::ODP1267,0
+d13C,ODP1262,d13C::ODP1262,1
+d13C,ODP1262 2,d13C::ODP1262 2,2
+d13C,ODP1209,d13C::ODP1209,3
+d13C,ODP1209 2,d13C::ODP1209 2,4
+d13C,ODP1209 3,d13C::ODP1209 3,5
+d13C,ODP1209 4,d13C::ODP1209 4,6
+d13C,ODP1209 5,d13C::ODP1209 5,7
+d13C,ODP1209 6,d13C::ODP1209 6,8
+d13C,IODP U1403,d13C::IODP U1403,9
+d13C,Songliao Basin,d13C::Songliao Basin,10
+d13C,Songliao Basin 2,d13C::Songliao Basin 2,11
+d13C,Nanxiong Basin,d13C::Nanxiong Basin,12
+d18O,ODP1210,d18O::ODP1210,0
+d18O,ODP1210B,d18O::ODP1210B,1
+d18O,Stevns-1 Core,d18O::Stevns-1 Core,2
+d18O,ODP1262,d18O::ODP1262,3
+d18O,ODP1262 2,d18O::ODP1262 2,4
+d18O,DSDP465,d18O::DSDP465,5
+d18O,ODP1267,d18O::ODP1267,6
+d18O,ODP1267 2,d18O::ODP1267 2,7
+d18O,ODP1209,d18O::ODP1209,8
+d18O,ODP1209 2,d18O::ODP1209 2,9
+d18O,ODP1209 3,d18O::ODP1209 3,10
+d18O,ODP1209 4,d18O::ODP1209 4,11
+d18O,ODP1209 5,d18O::ODP1209 5,12
+d18O,ODP1209 6,d18O::ODP1209 6,13
+d18O,IODP U1403,d18O::IODP U1403,14
+d18O,Songliao Basin,d18O::Songliao Basin,15
+d18O,Songliao Basin 2,d18O::Songliao Basin 2,16
+d18O,Nanxiong Basin,d18O::Nanxiong Basin,17
+weathering,ODP1262B Os,weathering::ODP1262B Os,0
+weathering,ODP1209C Os,weathering::ODP1209C Os,1
+weathering,"Bottaccione Section, Gubbio Os","weathering::Bottaccione Section, Gubbio Os",2
+weathering,ODP525A Os,weathering::ODP525A Os,3
+weathering,ODP577 Os,weathering::ODP577 Os,4
+weathering,ODP690C Os,weathering::ODP690C Os,5
+weathering,IODP U1403 Os,weathering::IODP U1403 Os,6
+weathering,"Seymour Island, Antarctica Sr","weathering::Seymour Island, Antarctica Sr",7
+weathering,"Seymour Island, Antarctica Ca","weathering::Seymour Island, Antarctica Ca",8
+weathering,ODP1209C Ca,weathering::ODP1209C Ca,9
+weathering,ODP1209C Ca2,weathering::ODP1209C Ca2,10
+pCO2,all data,pCO2::all data,0

@@ -1,0 +1,10 @@
+"Taxon","Biological_variable","n","EV_resolution","EV_integration","Rate_integration","Trace_r0","Trace_r_le1","rank_5pct","rank_10pct"
+"Elasmobranchs","Speciation",48,50,"I(1)-compatible","I(1)-compatible",13.7778155338523,2.68470229043018,0,0
+"Elasmobranchs","Extinction",48,50,"I(1)-compatible","I(1)-compatible",18.8193500593989,2.47859481922906,1,1
+"Elasmobranchs","Net diversification",48,50,"I(1)-compatible","I(1)-compatible",16.1774796351062,1.26100003278203,0,1
+"Bivalves","Speciation",24,100,"I(1)-compatible","I(1)-compatible",29.0668536184884,10.530550658141,2,2
+"Bivalves","Extinction",24,100,"I(1)-compatible","I(1)-compatible",21.6769972824286,6.21138743448348,1,1
+"Bivalves","Net diversification",24,100,"I(1)-compatible","I(1)-compatible",12.489326405748,4.54203769889179,0,0
+"Calcareous nannofossils","Speciation",25,100,"I(1)-compatible","I(0)",NA,NA,NA,NA
+"Calcareous nannofossils","Extinction",25,100,"I(1)-compatible","I(0)",NA,NA,NA,NA
+"Calcareous nannofossils","Net diversification",25,100,"I(1)-compatible","I(0)",NA,NA,NA,NA

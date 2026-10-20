@@ -1,0 +1,38 @@
+{
+  "source_files": {
+    "global_EV": "Dataset_S1_revised_v6.xlsx",
+    "temperature": "Dataset_S2_revised.xlsx",
+    "d18O": "Dataset_S4_revised_v3.xlsx",
+    "d13C": "Dataset_S3_revised_v3.xlsx",
+    "weathering": "Dataset_S5_revised_v4.xlsx"
+  },
+  "source_sha256": {
+    "global_EV": "e538ce5cb61e770c4bd03169682977d2cdb07d549f9d8ecb9b7de8179c5c7c4b",
+    "temperature": "2450d1abc309675518de12141b131b5ce8c45eac5559bd648882d84b3b17a844",
+    "d18O": "c16ea03484e2475c2f03a9d287f76d0a724411de258da884f82066e0c545af23",
+    "d13C": "eb08f69a9266704567fc04ff63105cbb06445be37cad1241497623b1d6e2126c",
+    "weathering": "896582f3228d6c0f886a2be4d3c6fc3e62e355411ea3407aa737cdcfffc710f9"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:22) [Clang 22.1.3 ]",
+  "statistical_method": "Two-sided Pearson; unadjusted P; exact midpoint joins; no smoothing/interpolation",
+  "plot_mapping": "x = proxy-specific EV; y = Global EV",
+  "periods": [
+    [
+      "Full interval",
+      64800,
+      67200
+    ],
+    [
+      "Phase 1",
+      66450,
+      66900
+    ],
+    [
+      "Phase 2",
+      66050,
+      66400
+    ]
+  ],
+  "number_of_tests": 12,
+  "source_workbooks_unchanged": true
+}

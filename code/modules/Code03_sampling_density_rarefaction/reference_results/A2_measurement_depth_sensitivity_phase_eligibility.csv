@@ -1,0 +1,13 @@
+m_measurements,N_records,phase,phase_start_Ma,phase_end_Ma,available_bins,eligible_bins
+3,5,pre_escalation,67.2,66.95,6,6
+3,5,phase_1,66.9,66.45,10,10
+3,5,phase_2,66.4,66.05,8,8
+3,5,recovery,65.95,64.8,24,24
+4,5,pre_escalation,67.2,66.95,6,6
+4,5,phase_1,66.9,66.45,10,10
+4,5,phase_2,66.4,66.05,8,8
+4,5,recovery,65.95,64.8,24,24
+5,5,pre_escalation,67.2,66.95,6,4
+5,5,phase_1,66.9,66.45,10,10
+5,5,phase_2,66.4,66.05,8,8
+5,5,recovery,65.95,64.8,24,24

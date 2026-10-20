@@ -1,0 +1,16 @@
+parameter,value
+input_observed_bin_count,49
+operational_record_clusters,66
+record_bin_IQR_rows,909
+zero_IQR_rule,Exclude IQR = 0 before observed means and cluster bootstrap
+bootstrap_iterations,5000
+random_seed,20260820
+RNG_kind,Mersenne-Twister/Inversion/Rejection
+cluster_sampling,Sample 66 operational records with replacement; retain all temporal record-bin IQRs
+smoothing_method,npreg::ss
+spar,0.2
+main_line,Observed 49-bin npreg fit; bootstrap median not substituted
+prediction_grid_points,481
+iterations_with_all_49_bins,4972
+iterations_with_one_or_more_empty_bins,28
+minimum_available_bins,46

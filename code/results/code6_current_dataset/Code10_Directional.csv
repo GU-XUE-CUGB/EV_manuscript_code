@@ -1,0 +1,9 @@
+"Taxon","Direction","Test","F","df1","df2","P"
+"Elasmobranchs","EV to Extinction","short_run",5.0400005808444,1,42,0.030092205151486
+"Elasmobranchs","EV to Extinction","joint",2.90098460287454,2,42,0.0660501114994888
+"Elasmobranchs","Extinction to EV","short_run",1.33584424153682,1,42,0.254300869217685
+"Elasmobranchs","Extinction to EV","joint",4.5751858970378,2,42,0.0159371407327907
+"Bivalves","EV to Extinction","short_run",15.1912389465776,1,18,0.0010550582860799
+"Bivalves","EV to Extinction","joint",11.69542927862,2,18,0.00055630457506728
+"Bivalves","Extinction to EV","short_run",0.632178857746001,1,18,0.436916565718093
+"Bivalves","Extinction to EV","joint",0.476556421182734,2,18,0.628532315084181

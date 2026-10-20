@@ -1,0 +1,10 @@
+"Taxon","Biological_variable","Environmental_metric","Resolution_kyr","n","Pearson_r","Nominal_P"
+"Elasmobranchs","Speciation","pCO2 variability",50,3,0.553483881597469,0.626596092446325
+"Elasmobranchs","Extinction","pCO2 variability",50,3,0.0333022530106249,0.978795206542512
+"Elasmobranchs","Net diversification","pCO2 variability",50,3,0.410387153331315,0.730787139034498
+"Bivalves","Speciation","pCO2 variability",100,7,0.126032834152636,0.787735258629154
+"Bivalves","Extinction","pCO2 variability",100,7,0.171857768649624,0.712534537674404
+"Bivalves","Net diversification","pCO2 variability",100,7,-0.326893031158307,0.474218404565508
+"Calcareous nannofossils","Speciation","pCO2 variability",100,11,0.0567740231038635,0.868314052781752
+"Calcareous nannofossils","Extinction","pCO2 variability",100,11,-0.0958806234843261,0.779147577848034
+"Calcareous nannofossils","Net diversification","pCO2 variability",100,11,0.0843046577771662,0.805339955004538

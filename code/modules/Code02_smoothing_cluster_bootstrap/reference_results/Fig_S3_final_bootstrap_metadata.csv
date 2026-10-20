@@ -1,0 +1,5 @@
+panel,bin_width_kyr,observed_bin_count,operational_record_clusters,nonzero_record_bin_IQR_rows,excluded_zero_IQR_rows,bootstrap_iterations,random_seed,spar,prediction_grid_points,iterations_with_all_bins,iterations_with_one_or_more_empty_bins,minimum_available_bins,final_spar,calculation_action
+A,200,29,70,542,2,5000,20260820,0.3,481,4902,98,25,0.3,recomputed_cluster_bootstrap
+B,150,27,68,584,3,5000,20260820,0.3,481,4970,30,26,0.3,recomputed_cluster_bootstrap
+C,100,25,68,624,2,5000,20260820,0.2,481,4999,1,24,0.2,reused_without_recalculation
+D,50,49,66,909,3,5000,20260820,0.2,481,4972,28,46,0.2,reused_without_recalculation

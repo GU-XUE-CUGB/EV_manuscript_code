@@ -1,0 +1,19 @@
+{
+  "code": "Code05",
+  "code_directory": "02_code_revised",
+  "raw_data_directory": "01_data_revised",
+  "parameter_directory": "03_results/EV_uncertainty_inventory",
+  "reference_outputs_directory": "reference_outputs",
+  "verification_output_directory": "verification",
+  "formal_iterations": 10000,
+  "formal_scenarios": [
+    {
+      "name": "primary",
+      "source": "run_primary_chronology_sensitivity_formal_50kyr_10000.py"
+    },
+    {
+      "name": "layerB",
+      "source": "run_chronology_layerB_conservative_sensitivity_formal_50kyr_10000.py"
+    }
+  ]
+}
