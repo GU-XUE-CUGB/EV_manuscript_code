@@ -1,0 +1,6 @@
+series,n_bins,zero_IQRs_in_summary_pool,aggregation_check_max_abs_error,rule
+global_EV,49,0,0.0,nonzero mean
+temperature,42,2,1.999955756559757e-12,as stored proxy mean
+d18O,49,0,1.1999290450148692e-12,as stored proxy mean
+d13C,49,0,1.1666778654273458e-12,as stored proxy mean
+weathering,32,0,5.500044863993026e-13,as stored proxy mean
