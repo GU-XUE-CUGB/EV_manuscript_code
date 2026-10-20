@@ -1,0 +1,134 @@
+{
+  "analysis": "Formal primary chronological sensitivity — standard 50-kyr Global EV",
+  "iterations": 10000,
+  "master_random_seed": 20260824,
+  "group_random_streams": {
+    "CHR-P1-ODP1209": {
+      "master_entropy": 20260824,
+      "spawn_key": [
+        0
+      ],
+      "bit_generator": "PCG64"
+    },
+    "CHR-P2-U1403": {
+      "master_entropy": 20260824,
+      "spawn_key": [
+        1
+      ],
+      "bit_generator": "PCG64"
+    },
+    "CHR-P3-SEYMOUR": {
+      "master_entropy": 20260824,
+      "spawn_key": [
+        2
+      ],
+      "bit_generator": "PCG64"
+    }
+  },
+  "active_groups": 3,
+  "active_operational_records": 24,
+  "active_measurements": 4230,
+  "active_measurement_coverage_percent": 38.87510339123242,
+  "measurement_values_perturbed": false,
+  "common_absolute_timescale_systematic_included": false,
+  "ODP1210_in_primary": false,
+  "dynamic_rebinning_and_eligibility": true,
+  "Dataset_S1_observed_EV_max_absolute_validation_difference": 1.6374679390196434e-12,
+  "formal_prefix_vs_validated_pilot_max_EV_difference": 0.0,
+  "formal_prefix_vs_validated_pilot_max_record_count_difference": 0,
+  "formal_prefix_vs_validated_pilot_max_contrast_difference": 0.0,
+  "formal_prefix_vs_validated_pilot_max_shift_difference": 0.0,
+  "cache_info": {
+    "CHR-P1-ODP1209": {
+      "unique_assignment_states": 2643,
+      "critical_shift_boundaries": 3627,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 2675984,
+        "eligible_nonzero_record_bins": 2662446,
+        "zero_iqr_record_bins_excluded": 13538,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 21892168
+      }
+    },
+    "CHR-P2-U1403": {
+      "unique_assignment_states": 489,
+      "critical_shift_boundaries": 513,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 1060630,
+        "eligible_nonzero_record_bins": 1060630,
+        "zero_iqr_record_bins_excluded": 0,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 8274508
+      }
+    },
+    "CHR-P3-SEYMOUR": {
+      "unique_assignment_states": 98,
+      "critical_shift_boundaries": 100,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 168828,
+        "eligible_nonzero_record_bins": 168828,
+        "zero_iqr_record_bins_excluded": 0,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 1083525
+      }
+    }
+  },
+  "direct_recalculation_checks": {
+    "1": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    },
+    "1000": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    },
+    "5000": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    },
+    "10000": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    }
+  },
+  "observed_EV_vs_simulation_median_max_absolute_difference": 0.152919989159357,
+  "maximum_difference_midpoint_Ma": 65.10000000000001,
+  "envelope_median_width": 0.14614799629412,
+  "envelope_maximum_width": 0.2836441964345117,
+  "maximum_width_midpoint_Ma": 65.75,
+  "observed_peak_midpoint_Ma": 66.05000000000001,
+  "empty_bin_events": 0,
+  "invalid_or_missing_EV_trajectories": 0,
+  "nonfinite_EV_values": 0,
+  "observed_total_eligible_record_bins": 909,
+  "simulated_total_eligible_record_bins_min": 889,
+  "simulated_total_eligible_record_bins_median": 909.0,
+  "simulated_total_eligible_record_bins_max": 927,
+  "observed_zero_IQR_record_bins_excluded": 3,
+  "expanded_ODP1210": {
+    "analysis": "Expanded ODP 1210 chronology sensitivity pilot kept separate from primary",
+    "iterations": 1000,
+    "additional_records": 2,
+    "additional_measurements": 83,
+    "shared_shift": "Same CHR-P1-ODP1209 Shatsky draw; no independent ODP1210 draw",
+    "iterations_with_changed_peak_midpoint": 140,
+    "proportion_with_changed_peak_midpoint": 0.14,
+    "maximum_absolute_difference_between_bin_medians": 0.023011929426368427,
+    "maximum_difference_midpoint_Ma": 66.2,
+    "per_iteration_maximum_absolute_EV_difference_median": 0.03875605789576478,
+    "per_iteration_maximum_absolute_EV_difference_97.5th": 0.04515421688684608,
+    "empty_bin_events": 0,
+    "cache": {
+      "unique_assignment_states": 128,
+      "critical_shift_boundaries": 144,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 7309,
+        "eligible_nonzero_record_bins": 7309,
+        "zero_iqr_record_bins_excluded": 0,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 43018
+      }
+    }
+  },
+  "group_contribution_diagnostic": "Pilot results reused without rerunning group-only simulations."
+}

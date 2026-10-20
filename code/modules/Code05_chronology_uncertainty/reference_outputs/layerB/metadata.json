@@ -1,0 +1,160 @@
+{
+  "analysis": "Formal Chronology Layer B conservative method-based sensitivity — standard 50-kyr Global EV",
+  "iterations": 10000,
+  "master_random_seed": 20260824,
+  "active_chronology_groups": 6,
+  "active_operational_records": 38,
+  "active_measurements": 8843,
+  "active_measurement_coverage_fraction": 0.8127010385074901,
+  "active_measurement_coverage_percent": 81.27010385074901,
+  "fixed_operational_records": 32,
+  "measurement_values_perturbed": false,
+  "common_absolute_timescale_systematic_included": false,
+  "common_astronomical_target_systematic_included": false,
+  "common_GPTS_systematic_included": false,
+  "observed_record_bin_mask_reused": false,
+  "dynamic_rebinning_and_eligibility": true,
+  "KPg_boundary_Ma_for_ODP690_segment_definition": 66.016,
+  "Dataset_S1_observed_EV_max_absolute_validation_difference": 1.6374679390196434e-12,
+  "formal_prefix_vs_validated_pilot": {
+    "EV_max_absolute_difference": 0.0,
+    "eligible_count_max_absolute_difference": 0,
+    "phase_contrast_max_absolute_difference": 0.0,
+    "peak_midpoint_max_absolute_difference": 0.0,
+    "CHR-P1-ODP1209-SHATSKY_shift_max_absolute_difference": 0.0,
+    "CHR-P2-U1403_shift_max_absolute_difference": 0.0,
+    "CHR-P3-SEYMOUR_shift_max_absolute_difference": 0.0,
+    "CHR-B1-ODP1262_shift_max_absolute_difference": 0.0,
+    "CHR-B2-ODP1267_shift_max_absolute_difference": 0.0,
+    "CHR-B3-ODP690-POSTKPG_shift_max_absolute_difference": 0.0
+  },
+  "formal_prefix_exactly_reproduces_pilot": true,
+  "cache_diagnostics": {
+    "CHR-P1-ODP1209-SHATSKY": {
+      "unique_assignment_states": 2671,
+      "critical_shift_boundaries": 3719,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 2749115,
+        "eligible_nonzero_record_bins": 2735577,
+        "zero_iqr_record_bins_excluded": 13538,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 22322500
+      }
+    },
+    "CHR-P2-U1403": {
+      "unique_assignment_states": 489,
+      "critical_shift_boundaries": 513,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 1060630,
+        "eligible_nonzero_record_bins": 1060630,
+        "zero_iqr_record_bins_excluded": 0,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 8274508
+      }
+    },
+    "CHR-P3-SEYMOUR": {
+      "unique_assignment_states": 98,
+      "critical_shift_boundaries": 100,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 168828,
+        "eligible_nonzero_record_bins": 168828,
+        "zero_iqr_record_bins_excluded": 0,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 1083525
+      }
+    },
+    "CHR-B1-ODP1262": {
+      "unique_assignment_states": 2128,
+      "critical_shift_boundaries": 2645,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 1966883,
+        "eligible_nonzero_record_bins": 1964304,
+        "zero_iqr_record_bins_excluded": 2579,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 32956456
+      }
+    },
+    "CHR-B2-ODP1267": {
+      "unique_assignment_states": 492,
+      "critical_shift_boundaries": 508,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 668506,
+        "eligible_nonzero_record_bins": 668506,
+        "zero_iqr_record_bins_excluded": 0,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 8251974
+      }
+    },
+    "CHR-B3-ODP690-POSTKPG": {
+      "unique_assignment_states": 173,
+      "critical_shift_boundaries": 176,
+      "diagnostic_totals": {
+        "record_bins_with_n_ge_2": 390659,
+        "eligible_nonzero_record_bins": 390659,
+        "zero_iqr_record_bins_excluded": 0,
+        "invalid_iqr_record_bins": 0,
+        "measurements_assigned_to_50kyr_domain": 1676824,
+        "segment_shifted_measurements": 510000,
+        "age_inversions": 0,
+        "segment_boundary_order_violations": 0
+      }
+    }
+  },
+  "direct_recalculation_checks": {
+    "1": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    },
+    "1000": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    },
+    "5000": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    },
+    "10000": {
+      "max_EV_difference": 0.0,
+      "max_record_count_difference": 0
+    }
+  },
+  "observed_EV_vs_simulation_median_max_absolute_difference": 0.15443763438037472,
+  "maximum_difference_midpoint_Ma": 65.10000000000001,
+  "envelope_median_width": 0.17764005565136126,
+  "envelope_maximum_width": 0.31174578091378785,
+  "maximum_width_midpoint_Ma": 65.75,
+  "observed_peak_midpoint_Ma": 66.05000000000001,
+  "Phase2_minus_pre_median": 0.2120490718766485,
+  "Phase2_minus_pre_2.5th": 0.17657661693625545,
+  "Phase2_minus_pre_97.5th": 0.24317307226534465,
+  "Phase2_stable_positive_interval": true,
+  "execution_diagnostics": {
+    "age_inversions": 0,
+    "segment_boundary_order_violations": 0,
+    "ODP690_post_KPg_measurements_shifted_per_realization": 51,
+    "ODP690_shift_draw_min_kyr": -199.97767618562958,
+    "ODP690_shift_draw_max_kyr": -0.02828085692925697,
+    "iterations_with_at_least_one_empty_bin": 0,
+    "total_empty_bin_events": 0,
+    "invalid_or_missing_EV_trajectory_iterations": 0,
+    "nonfinite_EV_values": 0,
+    "invalid_IQR_events": 0,
+    "observed_total_eligible_record_bins": 909,
+    "simulated_total_eligible_record_bins_min": 884,
+    "simulated_total_eligible_record_bins_median": 909.0,
+    "simulated_total_eligible_record_bins_max": 930,
+    "maximum_absolute_per_bin_record_count_change": 13,
+    "observed_zero_IQR_record_bins_excluded": 3
+  },
+  "primary_comparison": {
+    "LayerB_minus_primary_median_envelope_width": 0.03149205935724125,
+    "LayerB_minus_primary_maximum_envelope_width": 0.02810158447927613,
+    "median_bin_specific_envelope_width_change": 0.026332633075858924,
+    "maximum_absolute_bin_specific_width_change": 0.11629506183457405,
+    "maximum_absolute_width_change_midpoint_Ma": 65.25,
+    "primary_modal_peak_Ma": 66.05000000000001,
+    "LayerB_modal_peak_Ma": 66.05000000000001,
+    "paired_realizations_with_changed_peak_fraction": 0.3085,
+    "peak_total_variation_distance": 0.1586
+  }
+}

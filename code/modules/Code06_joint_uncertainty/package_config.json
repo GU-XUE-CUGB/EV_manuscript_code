@@ -1,0 +1,15 @@
+{
+  "code": "Code06",
+  "code_directory": "02_code_revised",
+  "raw_data_directory": "01_data_revised",
+  "parameter_directory": "03_results/EV_uncertainty_inventory",
+  "reference_outputs_directory": "reference_outputs",
+  "verification_output_directory": "verification",
+  "formal_iterations": 10000,
+  "formal_scenarios": [
+    {
+      "name": "jointBB",
+      "source": "run_joint_conservative_measurement_chronology_sensitivity_formal_50kyr_10000.py"
+    }
+  ]
+}
